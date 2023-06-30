@@ -1,171 +1,64 @@
-# just-the-docs-template
+README
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+This README file provides information about the GitHub repository hosting my doctoral research project.
+Research Project Title
 
-- uses the [Just the Docs] theme;
-- can be built and published on [GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+"Integrative Analysis of Sustainable and Resilient Development: A Cross-Disciplinary Approach to Economics, Thermodynamics, Blockchain Technologies, and Monetary Policies"
+Introduction
 
-More specifically, the created site:
+The research project focuses on investigating sustainable and resilient development by adopting an integrative approach that considers the interplay between various disciplines. The project aims to strike a balance between economic growth, social equity, and environmental preservation. By employing a transdisciplinary perspective, this research will explore the intersections of economics, thermodynamics, blockchain technologies, and monetary policies.
+Repository Structure
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem;
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages.
+The GitHub repository is organized as follows:
 
-To get started with creating a site, just click "[use this template]"!
+    /code: This directory contains the source code developed for the project. It may be further divided into subdirectories based on different aspects of the research, such as economic modeling, thermodynamic analysis, blockchain implementation, and monetary policy simulations.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](#hosting-your-docs-from-an-existing-project-repo).
+    /data: This directory houses the datasets and relevant data used in the research. It may include subdirectories to organize data based on different sources or categories.
 
-After completing the creation of your new site on GitHub, update it as needed:
+    /documents: This directory contains research documents, including academic papers, reports, and presentations related to the doctoral project. It serves as a repository for written work and scholarly contributions.
 
-## Replace the content of the template pages
+    /results: This directory stores the research results and outputs generated from the conducted analyses, simulations, and experiments. It may include visualizations, statistical summaries, and other outcome measures.
 
-Update the following files to your own content:
+    /scripts: This directory hosts utility scripts, automation tools, data preprocessing scripts, and other helpful scripts used throughout the research project.
 
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
+Contribution Guidelines
 
-## Changing the version of the theme and/or Jekyll
+Contributions to this project are welcomed. If you wish to contribute, please follow these steps:
 
-Simply edit the relevant line(s) in the `Gemfile`.
+    Fork the repository to create your own copy.
 
-## Adding a plugin
+    Clone the forked repository to your local machine.
 
-The Just the Docs theme automatically includes the [`jekyll-seo-tag`] plugin.
+    bash
 
-To add an extra plugin, you need to add it in the `Gemfile` *and* in `_config.yml`. For example, to add [`jekyll-default-layout`]:
+git clone https://github.com/your-username/your-doctoral-project.git
 
-- Add the following to your site's `Gemfile`:
+Create a new branch for your modifications.
 
-  ```ruby
-  gem "jekyll-default-layout"
-  ```
+css
 
-- And add the following to your site's `_config.yml`:
+git checkout -b my-branch
 
-  ```yaml
-  plugins:
-    - jekyll-default-layout
-  ```
+Make the desired changes to the code, documents, or data.
 
-Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key instead of `plugins`.
+Commit your changes.
 
-## Publishing your site on GitHub Pages
+sql
 
-1.  If your created site is `YOUR-USERNAME/YOUR-SITE-NAME`, update `_config.yml` to:
+git add .
+git commit -m "Description of your modifications"
 
-    ```yaml
-    title: YOUR TITLE
-    description: YOUR DESCRIPTION
-    theme: just-the-docs
+Push your changes to your forked repository.
 
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
+perl
 
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
-    ```
+    git push origin my-branch
 
-2.  Push your updated `_config.yml` to your site on GitHub.
+    Open a pull request to submit your modifications. Provide a detailed description of your changes and explain how they contribute to the project.
 
-3.  In your newly created repo on GitHub:
-    - go to the `Settings` tab -> `Pages` -> `Build and deployment`, then select `Source`: `GitHub Actions`.
-    - if there were any failed Actions, go to the `Actions` tab and click on `Re-run jobs`.
+Once your pull request is submitted, it will be reviewed, and if accepted, merged into the main repository.
+Contact
 
-## Building and previewing your site locally
+For any questions or concerns regarding this research project, please feel free to contact me at [contact email address].
 
-Assuming [Jekyll] and [Bundler] are installed on your computer:
-
-1.  Change your working directory to the root directory of your site.
-
-2.  Run `bundle install`.
-
-3.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
-
-    The built site is stored in the directory `_site`.
-
-## Publishing your built site on a different platform
-
-Just upload all the files in the directory `_site`.
-
-## Customization
-
-You're free to customize sites that you create with this template, however you like!
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-## Hosting your docs from an existing project repo
-
-You might want to maintain your docs in an existing project repo. Instead of creating a new repo using the [just-the-docs template](https://github.com/just-the-docs/just-the-docs-template), you can copy the template files into your existing repo and configure the template's Github Actions workflow to build from a `docs` directory. You can clone the template to your local machine or download the `.zip` file to access the files.
-
-### Copy the template files
-
-1.  Create a `.github/workflows` directory at your project root if your repo doesn't already have one. Copy the `pages.yml` file into this directory. GitHub Actions searches this directory for workflow files.
-
-2.  Create a `docs` directory at your project root and copy all remaining template files into this directory.
-
-### Modify the GitHub Actions workflow
-
-The GitHub Actions workflow that builds and deploys your site to Github Pages is defined by the `pages.yml` file. You'll need to edit this file to that so that your build and deploy steps look to your `docs` directory, rather than the project root.
-
-1.  Set the default `working-directory` param for the build job.
-
-    ```yaml
-    build:
-      runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: docs
-    ```
-
-2.  Set the `working-directory` param for the Setup Ruby step.
-
-    ```yaml
-    - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
-          cache-version: 0
-          working-directory: '${{ github.workspace }}/docs'
-    ```
-
-3.  Set the path param for the Upload artifact step:
-
-    ```yaml
-    - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: "docs/_site/"
-    ```
-
-4.  Modify the trigger so that only changes within the `docs` directory start the workflow. Otherwise, every change to your project (even those that don't affect the docs) would trigger a new site build and deploy.
-
-    ```yaml
-    on:
-      push:
-        branches:
-          - "main"
-        paths:
-          - "docs/**"
-    ```
-
-## Licensing and Attribution
-
-This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
-
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT License is available in [actions/starter-workflows].
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
+Please remember to customize this README file according to the specific details of your doctoral research project. You can add additional sections or modify the existing content to suit your project's needs.
