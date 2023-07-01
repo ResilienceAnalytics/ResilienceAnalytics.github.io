@@ -6,263 +6,28 @@ nav_order: 7
 child_nav_order: reversed
 ---
 
-use std::collections::HashSet;
-use cosmwasm_std::{
-    Addr, Coin, Deps, DepsMut, Env, MessageInfo, Response, StdResult, Uint128, WasmMsg,
-};
-use cw20::Cw20ReceiveMsg;
-use bincode::{serialize, deserialize};
+### Smart Contract ICO
 
-pub struct InstantiateMsg {
-    pub ico_start: u64,
-    pub ico_end: u64,
-    pub soft_cap: u64,
-    pub min_investment: u64,
-    pub max_investment: u64,
-    pub tokens_per_dollar: u64,
-}
+This smart contract is designed to function as an Initial Coin Offering (ICO) contract on the CosmWasm platform, which is a framework for writing smart contracts on the Cosmos blockchain.
 
-pub struct State {
-    pub raised_amount: u64,
-    pub investors: Vec<Investor>,
-    pub investors_at_10: u64,
-    pub investors_at_100: u64,
-    pub investors_at_1000: u64,
-    pub bonus_recipients: HashSet<Addr>,
-    pub authorized_addresses: HashSet<Addr>,
-    pub ico_start: u64,
-    pub ico_end: u64,
-    pub soft_cap: u64,
-    pub min_investment: u64,
-    pub max_investment: u64,
-    pub tokens_per_dollar: u64
-}
+ICO is a type of token offering where new cryptocurrencies are pre-sold to investors in exchange for legally recognized currencies or other cryptocurrencies.
 
-pub struct Investor {
-    pub address: Addr,
-    pub investment_amount: u64,
-    pub refunded: bool,
-    pub received_bonus: bool,
-}
+#### Here are the key features of the contract:
 
-pub enum ExecuteMsg {
-    Invest { amount: Coin },
-    DistributeTokens {},
-    RefundInvestors {},
-}
+##### InstantiateMsg: This message is used to initialize the ICO with parameters such as the ICO start and end dates, soft cap, minimum investment, maximum investment, and token rate.
 
-pub fn instantiate(
-    deps: DepsMut,
-    env: Env,
-    info: MessageInfo,
-    msg: InstantiateMsg,
-) -> StdResult<Response> {
-    let state = State {
-        raised_amount: 0,
-        investors: vec![],
-        authorized_addresses: HashSet::from([env.contract.address.clone()]),
-        ico_start: msg.ico_start,
-        ico_end: msg.ico_end,
-        soft_cap: msg.soft_cap,
-        min_investment: msg.min_investment,
-        max_investment: msg.max_investment,
-        tokens_per_dollar: msg.tokens_per_dollar,
-        investors_at_10: 0,
-        investors_at_100: 0,
-        investors_at_1000: 0,
-        bonus_recipients: HashSet::new(),
-    };
+##### State: This represents the global state of the contract, which includes information such as the amount raised, list of investors, number of investors at different bonus levels, set of authorized addresses, and ICO parameters.
 
-    Ok(Response::new())
-}
+##### Investor: This structure stores information about an investor, including their address, investment amount, and whether they have been refunded or not.
 
-pub fn execute(
-    deps: DepsMut,
-    env: Env,
-    info: MessageInfo,
-    msg: ExecuteMsg,
-) -> StdResult<Response> {
-    let state: State = deps.storage.load(b"state")?;
-    if !state.authorized_addresses.contains(&info.sender) {
-        return Err(StdError::generic_err("Unauthorized address"));
-    }
+##### ExecuteMsg: These are the messages that the contract can handle after initialization. It includes operations such as investment, token distribution, and investor refunds.
 
-    match msg {
-        ExecuteMsg::Invest { amount } => invest(env, info, amount),
-        ExecuteMsg::DistributeTokens {} => distribute_tokens(env),
-        ExecuteMsg::RefundInvestors {} => refund_investors(),
-    }
-}
+##### invest: This function allows an investor to participate in the ICO by investing a certain amount. It updates the contract state and calculates the number of tokens the investor will receive.
 
-fn invest(mut deps: DepsMut, env: Env, info: MessageInfo, amount: Coin) -> StdResult<Response> {
-    // Vérification des conditions d'investissement
-    assert!(env.block.time >= ICO_START && env.block.time <= ICO_END);
-    assert!(amount.amount >= MIN_INVESTMENT && amount.amount <= MAX_INVESTMENT);
+##### distribute_tokens: This function is used to distribute tokens to investors after the ICO ends, provided that the soft cap has been reached.
 
-    // Load the current state
-    let state_result = deps.storage.load(b"state");
-    
-    let mut state: State;
-    match state_result {
-        Ok(s) => {
-            state = s;
-        },
-        Err(e) => {
-            return Err(StdError::generic_err(format!("Failed to load state: {}", e)));
-        },
-    }
+##### refund_investors: If the ICO fails to reach the soft cap, this function is used to refund investors.
 
-    // Mettez à jour l'état avec les informations de l'investisseur
-    state.raised_amount += amount.amount;
-    state.investors.push(Investor {
-        address: info.sender.clone(),
-        investment_amount: amount.amount,
-        refunded: false,
-    });
+##### calculate_token_amount: This function calculates the number of tokens each investor will receive based on their investment amount and eligibility for bonus tokens.
 
-    // Calculate token amount
-    let token_amount = calculate_token_amount(amount.amount, info.sender.clone(), &mut state);
-
-    // Save the state back into storage
-    let set_result = deps.storage.set(b"state", &bincode::serialize(&state));
-
-    match set_result {
-        Ok(_) => {},
-        Err(e) => {
-            return Err(StdError::generic_err(format!("Failed to save state: {}", e)));
-        },
-    }
-
-    Ok(Response::new().add_attribute("action", "invest"))
-}
-fn distribute_tokens(env: Env) -> StdResult<Response> {
-    // Vérifier que l'ICO est terminée et que le soft cap a été atteint
-    assert!(env.block.time > ICO_END && state.raised_amount >= SOFT_CAP);
-
-    // Distribuer les tokens Resyr en fonction du montant investi
-    for investor in &state.investors {
-        let token_amount = calculate_token_amount(investor.investment_amount);
-        send_tokens(&investor.address, token_amount)?;
-    }
-
-    // Renvoyer une réponse indiquant le succès de la distribution des tokens
-    Ok(Response::new().add_attribute("action", "distribute_tokens"))
-}
-
-fn refund_investors(mut deps: DepsMut, env: Env, info: MessageInfo) -> StdResult<Response> {
-    // Load the current state
-    let state_result = deps.storage.load(b"state");
-
-    let mut state: State;
-    match state_result {
-        Ok(s) => {
-            state = s;
-        },
-        Err(e) => {
-            return Err(StdError::generic_err(format!("Failed to load state: {}", e)));
-        },
-    }
-
-    // Parcourir la liste des investisseurs et effectuer le remboursement
-    for investor in &mut state.investors {
-        // Vérifier si l'investisseur n'a pas encore été remboursé
-        if !investor.refunded {
-            // Effectuer le transfert de fonds vers l'investisseur
-            let transfer_msg = Cw20ReceiveMsg {
-                sender: env.contract.address.clone().into(),
-                amount: Uint128::from(investor.investment_amount),
-                msg: Some(to_binary(&MyTokenMsg::Transfer {
-                    recipient: info.sender.clone().into(),
-                    amount: Uint128::from(investor.investment_amount),
-                })?),
-            };
-            let transfer_exec_msg = WasmMsg::Execute {
-                contract_addr: investor.address.clone().into(),
-                msg: to_binary(&transfer_msg)?,
-                funds: vec![],
-            };
-
-            // Envoyer le message de transfert
-            let res = deps.querier.custom_execute(vec![transfer_exec_msg.into()]);
-
-            // Vérifier la réponse du transfert
-            match res {
-                Ok(response) => {
-                    if response.is_error() {
-                        // Log the error and continue to next investor instead of stopping the entire process
-                        deps.storage.set(b"error", b"Failed to refund investor")?;
-                        continue;
-                    }
-
-                    // Marquer l'investisseur comme remboursé dans l'état
-                    investor.refunded = true;
-                },
-                Err(e) => {
-                    // Log the error and continue to next investor
-                    deps.storage.set(b"error", b"Failed to execute transfer")?;
-                    continue;
-                },
-            }
-        }
-    }
-
-    // Mettre à jour l'état dans le storage
-    deps.storage.set(b"state", &bincode::serialize(&state)?)?;
-
-    // Renvoyer une réponse indiquant le succès du remboursement
-    Ok(Response::new().add_attribute("action", "refund_investors"))
-}
-
-
-fn calculate_token_amount(investment_amount: u64, investor_address: Addr, state: &mut State) -> u64 {
-    // Basic calculation: $1 equals to 100 tokens
-    let mut tokens = investment_amount * TOKENS_PER_DOLLAR;
-
-    // Only give a bonus if this investor has not received one before
-    if !state.bonus_recipients.contains(&investor_address) {
-        // Bonus tokens for first 1000 investors at certain amounts
-        if investment_amount >= 1000 && state.investors_at_1000 < 1000 {
-            tokens += 1000 * 10;
-            state.investors_at_1000 += 1;
-            state.bonus_recipients.insert(investor_address);
-        } else if investment_amount >= 100 && state.investors_at_100 < 1000 {
-            tokens += 1000 * 5;
-            state.investors_at_100 += 1;
-            state.bonus_recipients.insert(investor_address);
-        } else if investment_amount >= 10 && state.investors_at_10 < 1000 {
-            tokens += 1000;
-            state.investors_at_10 += 1;
-            state.bonus_recipients.insert(investor_address);
-        }
-    }
-
-    tokens
-}
-
-fn send_tokens(recipient: &Addr, token_amount: u64) -> StdResult<Response> {
-    let cw20_contract_address = Addr::unchecked("your_cw20_contract_address");
-
-    // Construction du message d'exécution pour effectuer le transfert des tokens
-    let execute_msg = Cw20ExecuteMsg::Transfer {
-        recipient: recipient.into(),
-        amount: token_amount.into(),
-    };
-
-    // Construction du message Wasm pour envoyer le message d'exécution au contrat CW20
-    let msg = WasmMsg::Execute {
-        contract_addr: cw20_contract_address.into(),
-        msg: to_binary(&execute_msg)?,
-        funds: vec![],
-    };
-
-    // Construction de la réponse avec le message d'exécution et les attributs
-    let res = Response::new()
-        .add_message(msg)
-        .add_attribute("action", "send_tokens")
-        .add_attribute("recipient", recipient.to_string())
-        .add_attribute("amount", token_amount.to_string())
-        .add_attribute("status", "success")
-        .add_attribute("message", "Tokens sent successfully");
-
-    Ok(res)
-}
+In summary, this smart contract represents an ICO that can accept investments, calculate the number of tokens to allocate to each investor, distribute tokens after the ICO ends, and refund investors if the soft cap is not reached.
