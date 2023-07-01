@@ -39,3 +39,5 @@ If the ICO fails to reach the soft cap, this function is used to refund investor
 This function calculates the number of tokens each investor will receive based on their investment amount and eligibility for bonus tokens.
 
 In summary, this smart contract represents an ICO that can accept investments, calculate the number of tokens to allocate to each investor, distribute tokens after the ICO ends, and refund investors if the soft cap is not reached.
+
+
