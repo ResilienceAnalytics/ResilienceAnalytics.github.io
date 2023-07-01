@@ -22,7 +22,7 @@ We outline the objectives of our ICO, which primarily focus on raising funds to 
 
 #### Structure of the White Paper
 
-This section provides an overview of the structure of the White Paper, outlining the main sections and their content to guide readers through the document.
+The whitepaper is structured to provide a comprehensive and coherent presentation of our project on integrated analysis of sustainable and resilient development. It consists of different sections that guide the reader through key aspects of the project.
 
 #### Vision and Project Objectives
 
