@@ -31,3 +31,5 @@ The interdisciplinary nature of econophysics enables us to bridge the gap betwee
 Through our research in econophysics, we aim to contribute to the ongoing discourse on sustainable development. By unraveling the intricate relationship between work, money, and energy, we seek to identify strategies for transitioning towards more sustainable and resilient economic models. Our ultimate goal is to foster societies that prioritize sufficiency, well-being, and harmony with the environment.
 
 Feel free to explore our Econophysics section to delve deeper into our research and its implications for the transformation of economic systems.
+
+You can download econophysics in PDF format [here] (econophysics-EN.pdf).
