@@ -31,3 +31,7 @@ Learn more about our team and expertise by visiting our About section. You'll fi
 ### Contact Us
 
 For any inquiries, collaborations, or additional information requests, feel free to reach out to us. Use the form below, and we will get back to you as soon as possible.
+
+### SmartContract for ICO
+
+In our ICO, we utilize a smart contract to facilitate the token sale and ensure transparency and security throughout the process. The smart contract is built on a blockchain platform, providing a decentralized and immutable record of transactions.
