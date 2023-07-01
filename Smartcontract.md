@@ -40,4 +40,4 @@ This function calculates the number of tokens each investor will receive based o
 
 In summary, this smart contract represents an ICO that can accept investments, calculate the number of tokens to allocate to each investor, distribute tokens after the ICO ends, and refund investors if the soft cap is not reached.
 
-
+You can download the smartcontract [here](smartcontract).
