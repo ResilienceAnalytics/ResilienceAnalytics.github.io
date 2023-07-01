@@ -12,7 +12,6 @@ child_nav_order: reversed
 
 - Name: Mélik Lemariey
 - Age: 37
-- Email: melik.e.lemariey@pm.me
 - Father of two
 
 **Summary**
@@ -44,6 +43,6 @@ In addition to my professional pursuits, I am part of the staff of LeHack, a hac
 
 **Download CV**
 
-You can download my résumé in PDF format [here](insert_link_to_download_PDF).
+You can download my résumé in PDF format [here](resume.pdf).
 
 Feel free to reach out to me for any further information or inquiries.
