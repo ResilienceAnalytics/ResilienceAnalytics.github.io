@@ -65,3 +65,5 @@ The conclusion section summarizes the key points discussed throughout the White 
 We express our acknowledgments and gratitude to those who have supported us in our research journey. We also discuss future perspectives and ongoing commitments beyond the ICO.
 
 Feel free to reach out to us if you have any further questions or require additional information about our ICO or the research project.
+
+You can download the whitepaper in PDF format [here](WhitePaper.pdf).
