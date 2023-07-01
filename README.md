@@ -12,4 +12,4 @@ Contact
 
 For any questions or concerns regarding this research project, please feel free to contact me at [resilientanalytics_phd {at} proton.me].
 
-Please remember to customize this README file according to the specific details of your doctoral research project. You can add additional sections or modify the existing content to suit your project's needs.
+
