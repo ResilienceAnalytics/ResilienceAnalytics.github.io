@@ -2,7 +2,7 @@
 layout: default
 title: Contact
 nav_exclude: false
-nav_order: 6
+nav_order: 7
 ---
 
 ### Contact
