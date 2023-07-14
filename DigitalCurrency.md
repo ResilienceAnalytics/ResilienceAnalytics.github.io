@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Project Research
+title: Digital Currency
 nav_exclude: false
-nav_order: 4
+nav_order: 5
 child_nav_order: reversed
 ---
 
