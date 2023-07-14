@@ -24,6 +24,10 @@ Delve into our Econophysics section where we apply the formalism of thermodynami
 
 Consult our ICO (Initial Coin Offering) Whitepaper to learn more about our vision for leveraging blockchain technologies to enhance economic sustainability. Explore how we utilize transparency and trust offered by blockchain technologies to support our projects.
 
+### Digital Currency
+
+This project aims to create a decentralized currency based on the digital euro model, with the objective of increasing wealth in the economic system through transparency, inclusivity, and sustainable practices.
+
 ### About (CV)
 
 Learn more about our team and expertise by visiting our About section. You'll find information about our professional background, skills, and commitment to sustainable and resilient development.
