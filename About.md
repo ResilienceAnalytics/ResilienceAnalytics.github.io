@@ -2,7 +2,7 @@
 layout: default
 title: About
 nav_exclude: false
-nav_order: 5
+nav_order: 6
 child_nav_order: reversed
 ---
 
