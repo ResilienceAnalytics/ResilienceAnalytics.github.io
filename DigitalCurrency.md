@@ -9,7 +9,7 @@ child_nav_order: reversed
  
  
  
- #### Executive Summary
+#### Executive Summary
 
 This executive summary outlines the key features and objectives of a decentralized currency creation project. The project aims to develop a decentralized currency using the digital euro as a model, with the goal of increasing the wealth of an economic system in a sustainable and equitable manner.
 
