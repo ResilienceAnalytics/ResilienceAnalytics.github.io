@@ -20,9 +20,9 @@ Explore our research project that explores the intersections between economics, 
 
 Delve into our Econophysics section where we apply the formalism of thermodynamics to economics. Discover how thermodynamic principles can bring new perspectives to economic analysis and sustainability.
 
-### ICO Whitepaper
+### Liquidity Bootstrapping Pool
 
-Consult our ICO (Initial Coin Offering) Whitepaper to learn more about our vision for leveraging blockchain technologies to enhance economic sustainability. Explore how we utilize transparency and trust offered by blockchain technologies to support our projects.
+We chose a Liquidity Bootstrapping Pool (LBP) over an Initial Coin Offering (ICO) to ensure fair distribution, enable organic price discovery, and establish initial market liquidity for our project.
 
 ### Digital Currency
 
