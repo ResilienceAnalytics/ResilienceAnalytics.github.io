@@ -35,21 +35,21 @@ This executive summary outlines the key features and objectives of a decentraliz
 
 Based on the key points discussed in econophysics, here's how to create a decentralized currency to increase wealth in an economic system:
 <ol>
-<li>**Determine the monetary unit:** It is necessary to choose a monetary unit that will serve as a reference for the value of the decentralized currency.</li>
+<li>Determine the monetary unit: It is necessary to choose a monetary unit that will serve as a reference for the value of the decentralized currency.</li>
 
-<li>**Increase the value of the monetary unit:** To increase wealth in the economic system, the goal is to increase the value (u) of the monetary unit. This can be achieved by reducing product prices, allowing consumers to save money and increase their wealth.</li>
+<li>Increase the value of the monetary unit: To increase wealth in the economic system, the goal is to increase the value (u) of the monetary unit. This can be achieved by reducing product prices, allowing consumers to save money and increase their wealth.</li>
 
-<li>**Boost productivity:** To lower prices and increase the value of the monetary unit, it is essential to enhance productivity. This can be accomplished by increasing work output, whether through individuals, employees, animals, or engines. The availability of low-cost artificial energy sources can contribute to this productivity increase.</li>
+<li>Boost productivity: To lower prices and increase the value of the monetary unit, it is essential to enhance productivity. This can be accomplished by increasing work output, whether through individuals, employees, animals, or engines. The availability of low-cost artificial energy sources can contribute to this productivity increase.</li>
 
-<li>**Balance supply and demand:** Striving for a balance between supply and demand is important to maintain consistent monetary developments. Excessive monetary policies that may disrupt the economic system should be avoided.</li>
+<li>Balance supply and demand: Striving for a balance between supply and demand is important to maintain consistent monetary developments. Excessive monetary policies that may disrupt the economic system should be avoided.</li>
 
-<li>**Conservation principle:** The conservation principle plays a crucial role in economics. Any changes in the number of monetary units do not create real wealth. Only the expenditure of work in the form of energy can increase purchasing power and contribute to wealth growth.</li>
+<li>Conservation principle: The conservation principle plays a crucial role in economics. Any changes in the number of monetary units do not create real wealth. Only the expenditure of work in the form of energy can increase purchasing power and contribute to wealth growth.</li>
 
-<li>**Role of bankers and finance:** Bankers and speculative finance cannot create money in the strict sense. Their role is limited to manipulating (transferring) the number of monetary units, but they cannot create real wealth. The focus should be on the process of reducing prices and increasing productivity through work.</li>
+<li>Role of bankers and finance: Bankers and speculative finance cannot create money in the strict sense. Their role is limited to manipulating (transferring) the number of monetary units, but they cannot create real wealth. The focus should be on the process of reducing prices and increasing productivity through work.</li>
 
-<li>**Relationship between work and currency:** Understanding the laws governing the economic transformations of work into currency is essential. Discovering and controlling energy transformations have led to societal enrichment through the proliferation of artificial sources of work and subsequent price reductions.</li>
+<li>Relationship between work and currency: Understanding the laws governing the economic transformations of work into currency is essential. Discovering and controlling energy transformations have led to societal enrichment through the proliferation of artificial sources of work and subsequent price reductions.</li>
 
-<li>**Natural science-based approach:** It is recommended to adopt an economics approach free from anthropocentric criteria and arguments. Drawing on natural sciences, particularly physics, is advisable for studying monetary creation and understanding economic mechanisms</li>
+<li>Natural science-based approach: It is recommended to adopt an economics approach free from anthropocentric criteria and arguments. Drawing on natural sciences, particularly physics, is advisable for studying monetary creation and understanding economic mechanisms</li>
 
 </ol>
 
