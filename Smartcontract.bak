@@ -5,7 +5,9 @@ nav_exclude: false
 nav_order: 8
 child_nav_order: reversed
 ---
+### SmartContract for ICO
 
+In our ICO, we utilize a smart contract to facilitate the token sale and ensure transparency and security throughout the process. The smart contract is built on a blockchain platform, providing a decentralized and immutable record of transactions.
 ### Smart Contract ICO
 
 This smart contract is designed to function as an Initial Coin Offering (ICO) contract on the CosmWasm platform, which is a framework for writing smart contracts on the Cosmos blockchain.
