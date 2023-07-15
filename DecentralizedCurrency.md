@@ -1,8 +1,10 @@
-
-
-
-
-
+---
+layout: default
+title: Decentralized Currency
+nav_exclude: false
+nav_order: 10
+child_nav_order: reversed
+---
 
 ### Exploring Decentralized Currency: A Path Towards a Sustainable, Resilient, and Socially Responsible Economy
 
