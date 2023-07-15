@@ -2,7 +2,7 @@
 layout: default
 title: Decentralized Currency
 nav_exclude: false
-nav_order: 10
+nav_order: 6
 child_nav_order: reversed
 ---
 
