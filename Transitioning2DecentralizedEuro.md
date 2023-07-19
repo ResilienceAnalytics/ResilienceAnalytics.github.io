@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Transitioning to a Decentralized Euro
+title: ResilientEuro
 nav_exclude: false
 nav_order: 4
 child_nav_order: reversed
