@@ -2,7 +2,7 @@
 layout: default
 title: Governance
 nav_exclude: false
-nav_order: 2
+nav_order: 1
 child_nav_order: reversed
 parent : ResilientEuro
 ---
