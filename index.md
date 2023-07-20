@@ -20,6 +20,10 @@ Explore our research project that explores the intersections between economics, 
 
 Delve into our Econophysics section where we apply the formalism of thermodynamics to economics. Discover how thermodynamic principles can bring new perspectives to economic analysis and sustainability.
 
+### Resilient Euro
+
+This doctoral research explores the transition to a decentralized euro and cryptocurrency ecosystem to align purchasing power with the social contract and the environment. It focuses on designing eco-friendly tokens and creating local economies to promote sustainable behaviors and economic exchanges. The research addresses challenges such as regulation, price stability, security, and financial inclusion, aiming to propose solutions for a successful transition towards a decentralized euro.
+
 ### Digital Currency
 
 This project aims to create a decentralized currency based on the digital euro model, with the objective of increasing wealth in the economic system through transparency, inclusivity, and sustainable practices.
