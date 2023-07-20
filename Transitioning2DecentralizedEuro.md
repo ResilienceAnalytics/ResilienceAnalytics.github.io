@@ -4,6 +4,7 @@ title: ResilientEuro
 nav_exclude: false
 nav_order: 4
 child_nav_order: reversed
+has_children : true
 ---
 
 ### Transitioning to a Decentralized Euro: Towards Purchasing Power Aligned with the Social Contract and the Environment - Perspectives of a Doctoral Research
