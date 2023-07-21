@@ -32,6 +32,10 @@ This project aims to create a decentralized currency based on the digital euro m
 
 Decentralized currency, such as a decentralized euro, offers an alternative approach to traditional centralized monetary systems, integrating sustainability and social values into its fluctuating price mechanism. By linking principles of equality, justice, participation, and solidarity to the decentralized euro, it becomes a measure that encourages sustainable practices and fosters a socially responsible economy.
 
+### Liquidity Bootstrapping Pool
+
+We chose a Liquidity Bootstrapping Pool (LBP) over an Initial Coin Offering (ICO) to ensure fair distribution, enable organic price discovery, and establish initial market liquidity for our project.
+
 ### About (CV)
 
 Learn more about our team and expertise by visiting our About section. You'll find information about our professional background, skills, and commitment to sustainable and resilient development.
