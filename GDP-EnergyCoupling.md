@@ -15,27 +15,39 @@ In the realm of macroeconomics, the correlation between energy consumption and G
 #### Understanding the Relationship:
 Econometric studies demonstrate a relationship of the form y = a.x, indicating a correlation between energy consumption and GDP. However, this correlation does not establish a causal link. To analyze this further, let us consider the relationships (04-15 and 04-16):
 
-T (work) = 1/2 . C_p . ω^2
+
+![Equation 04-15](/images/TworkhalfSquare.png)  
+
+and : 
+
+![Equation 04-15](/images/MoneyHalfSquare.png)
 
 
-M (money) = -1/2 . C_A . ϖ^2
+
+
+
 
 It is noteworthy that as the speed of production (ω) increases, the speed of price formation (ϖ) decreases. By incorporating these factors, we can express:
 
-M = -K . 1/2 . C_p . ω^2
+
+![Equation](/images/MoneySpeed.png)
+
 
 As the speeds are not necessarily equal, a proportionality coefficient (K) is introduced, which also depends on the units used for measurement. While this relationship is valid for a single product, by considering an average speed (ω_m), the coefficient K can be approximated as constant, solely dependent on the units employed. At the macroeconomic level, we can then propose:
 
-M_created = K . T_spent
+![Equation](/images/MoneyCreated.png)
+
 
 #### GDP and Energy Consumption:
 In any economic system, GDP represents the total monetary value spent for each transformation from Work to Money. Conversely, all money spent must have been previously created in each Money to Work transformation. Hence, we can assert:
 
-GDP = K . T_spent
+![Equation](/images/GDPKT.png)
+
 
 However, it is crucial to acknowledge that energy consumption within a system does not directly contribute to monetary creation or system enrichment. Therefore, accounting for this energy, which affects the slope of the equation, the relationship becomes:
 
-GDP = K . W_consumed
+![Equation](/images/GDPKW.png)
+
 
 This equation underscores the inherent coupling between the GDP of a system and the energy consumed within it, illustrating the direct impact of energy on economic growth.
 
