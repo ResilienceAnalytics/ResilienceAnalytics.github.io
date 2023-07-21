@@ -2,7 +2,7 @@
 layout: default
 title: Liquidity Bootstrapping Pool
 nav_exclude: false
-nav_order: 4
+nav_order: 7
 child_nav_order: reversed
 ---
 ### Why We Chose a Liquidity Bootstrapping Pool (LBP) Over an Initial Coin Offering (ICO)
