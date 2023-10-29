@@ -1,6 +1,3 @@
-Certainly! Below is a documentation for the `equation_10_06` function formatted in markdown, ready to be included in your Jekyll website.
-
-```markdown
 ---
 layout: default
 title: Equation 10-06 Implementation
@@ -60,7 +57,3 @@ In this example, `F_A_expression`, `V_expression`, and `U_P_expression` are expr
 ## Conclusion
 This implementation provides a practical way to verify the equation 10-06, contributing to the broader understanding of economic transformations in the field of Econophysics. Feel free to utilize this function in your research and explorations within this interdisciplinary domain.
 
-[Back to Econophysics](../econophysics)
-```
-
-This markdown file can be placed in your Jekyll website's directory, and it will generate a webpage describing the implementation of equation 10-06. The `nav_order` and `parent` attributes in the front matter ensure that this page will be correctly placed in the navigation structure of your site.
