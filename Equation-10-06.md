@@ -3,7 +3,7 @@ layout: default
 title: Equation 10-06 Implementation
 nav_exclude: false
 child_nav_order: reversed
-nav_order: 1
+nav_order: 4
 parent: Economy
 ---
 
