@@ -2,7 +2,7 @@
 layout: default
 title: Equation 10-06 Implementation
 parent: Python Code
-nav_order: 10
+nav_order: 11
 ---
 
 # Equation 10-06 Implementation
