@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Equation 10-06 Implementation
-parent: Econophysics
-nav_order: 1
+parent: Python Code
+nav_order: 10
 ---
 
 # Equation 10-06 Implementation
