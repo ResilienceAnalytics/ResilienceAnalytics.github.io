@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Equation 10-06 Implementation
-parent: Economy
+parent: Econophysics
 nav_order: 1
 ---
 
