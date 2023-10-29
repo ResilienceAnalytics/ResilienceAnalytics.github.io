@@ -15,7 +15,9 @@ This section provides a detailed implementation and explanation of the equation 
 ## Equation
 The equation is defined as follows:
 
-\[ \frac{\partial F_A}{F_A} + \frac{\partial V}{V} = \frac{\partial U_P}{U_P} \]
+$$
+\frac{\partial F_A}{F_A} + \frac{\partial V}{V} = \frac{\partial U_P}{U_P}
+$$
 
 ## Python Implementation
 ```python
