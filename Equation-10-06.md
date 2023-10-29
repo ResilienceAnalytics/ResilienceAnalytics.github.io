@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Equation 10-06 Implementation
-parent: Economy
+nav_exclude: false
+child_nav_order: reversed
 nav_order: 1
+parent: Economy
 ---
 
 # Equation 10-06 Implementation
