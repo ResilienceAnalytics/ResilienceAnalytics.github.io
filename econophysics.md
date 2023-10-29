@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Econophysics
+title: Economy
 nav_exclude: false
 nav_order: 3
 child_nav_order: reversed
@@ -33,4 +33,4 @@ Through our research in econophysics, we aim to contribute to the ongoing discou
 
 Feel free to explore our Econophysics section to delve deeper into our research and its implications for the transformation of economic systems.
 
-You can download econophysics in PDF format [here](econophysics-EN.pdf).
+You can download econophysics in PDF format [here](Reflections-EN.pdf).
