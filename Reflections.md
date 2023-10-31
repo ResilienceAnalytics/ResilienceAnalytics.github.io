@@ -14,6 +14,8 @@ This study delves into the metamorphosis of work into money, drawing parallels t
 
 Feel free to explore our Econophysics section to delve deeper into our research and its implications for the transformation of economic systems.
 
-You can download the Reflection in PDF format  [here](Reflections-EN.pdf){: .btn .btn-purple }
+You can download the Reflection in PDF format :
+
+[here](Reflections-EN.pdf){: .btn .btn-purple }
 
 
