@@ -1,59 +1,62 @@
 ---
 layout: default
-title: Equation 10-06 Implementation
-parent: Python Code
-nav_order: 11
+title: PyEquationCraft
+nav_exclude: false
+child_nav_order: reversed
+
 ---
 
-# Equation 10-06 Implementation
+# PyEquationCraft
 
-## Overview
-This section provides a detailed implementation and explanation of the equation 10-06 from the field of Econophysics. The equation is implemented in Python, and this documentation aims to guide users through its usage.
+## Python-Code
+https://github.com/ResilienceAnalytics/Python-Code/blob/main/README.md
 
-## Equation
-The equation is defined as follows:
 
-\[ \frac{\partial F_A}{F_A} + \frac{\partial V}{V} = \frac{\partial U_P}{U_P} \]
+## Equations from the Reflection
+Description
 
-## Python Implementation
-```python
-import sympy as sp
+This project provides a straightforward implementation of a series of mathematical equations, specifically designed to perform symbolic and numerical calculations in Python. The core functionality is built upon the robust capabilities of the SymPy and NumPy libraries.
+Implementation
 
-def equation_10_06(F_A, V, U_P):
-    """
-    Calculate the partial derivatives and verify the equation 10-06.
-
-    :param F_A: Value of F_A
-    :param V: Value of V
-    :param U_P: Value of U_P
-    :return: Boolean value indicating whether the equation holds
-    """
-    # Assuming F_A, V, and U_P are functions of some variable x
-    x = sp.symbols('x')
-    F_A = sp.Function('F_A')(x)
-    V = sp.Function('V')(x)
-    U_P = sp.Function('U_P')(x)
-
-    # Calculating the partial derivatives
-    partial_F_A = sp.diff(F_A, x) / F_A
-    partial_V = sp.diff(V, x) / V
-    partial_U_P = sp.diff(U_P, x) / U_P
-
-    # Verifying the equation
-    return sp.simplify(partial_F_A + partial_V - partial_U_P) == 0
-```
-
+The equations are implemented as individual Python functions, allowing for easy integration and usage within other Python scripts or projects. The implementation is primarily aimed at handling singular numeric values, providing a clear and concise calculation method for each equation.
 ## Usage
-To use the `equation_10_06` function, you need to provide expressions representing `F_A`, `V`, and `U_P` as functions of some variable `x`. The function will return a boolean value indicating whether the equation holds.
 
-### Example
-```python
-result = equation_10_06(F_A_expression, V_expression, U_P_expression)
-print("Does the equation hold?", result)
-```
+To use the implemented equations, you need to have Python installed on your system along with the required libraries. You can install the necessary libraries using pip:
 
-In this example, `F_A_expression`, `V_expression`, and `U_P_expression` are expressions representing `F_A`, `V`, and `U_P` as functions of some variable `x`.
+    pip install sympy numpy
+
+Once the dependencies are installed, you can import the specific functions from the script and call them with the required parameters. For example:
+
+    from equations import eq10_01  # Importing a specific equation function
+
+        result = eq10_01(a, b, c)  # Calling the function with required parameters
+        print(result)
+
+## Modification for Data Arrays
+
+The current implementation is designed to handle single numerical values for simplicity and clarity. However, you might want to modify the functions to make them compatible with arrays of data, especially if you are dealing with datasets or bulk calculations.
+
+To extend the functionality to handle arrays, you can leverage the vectorization capabilities of NumPy. Below is an example of how you can modify a hypothetical function to handle arrays:
+
+    import numpy as np
+
+    def eq_example(x):
+    return np.sin(x) + np.cos(x)  # This function now supports both single values and arrays
+
+## Extending the Implementation
+
+Feel free to extend, modify, or improve the implementations as per your requirements. The code is structured to be modular and easy to understand, providing a good starting point for further development and customization.
+## MIT License
+
+MIT License
+
+Copyright (c) [2023] [Campergue Pierre & Lemariey Mélik]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Conclusion
-This implementation provides a practical way to verify the equation 10-06, contributing to the broader understanding of economic transformations in the field of Econophysics. Feel free to utilize this function in your research and explorations within this interdisciplinary domain.
-
+This project serves as a baseline implementation of a series of mathematical equations. While it is designed to be simple and straightforward, it also provides a flexible foundation for further development and integration with data arrays and datasets.
