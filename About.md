@@ -41,8 +41,4 @@ As a reverse engineering specialist focusing on complex systems, I possess exper
 
 In addition to my professional pursuits, I am part of the staff of LeHack, a hacker convention formerly known as Nuit du Hack. I am involved in the development of the intriguing Spying Challenge, which tests participants' skills in various phases of intelligence gathering and intrusion. Outside of my involvement with LeHack, I enjoy fishing and running, finding joy and fulfillment in staying active and spending time outdoors.
 
-**Download CV**
-
-You can download my résumé in PDF format [here](resume.pdf).
-
 Feel free to reach out to me for any further information or inquiries.
