@@ -1,9 +1,11 @@
 ---
 layout: default
-title: About
+title: Feature Selection
 nav_exclude: false
-nav_order: 15
+nav_order: 2
 child_nav_order: reversed
+parent : Feature Engineering
+gran_parent : SATools
 ---
 
 # Feature Selection Script
