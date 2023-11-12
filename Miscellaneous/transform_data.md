@@ -1,3 +1,14 @@
+---
+layout: default
+title: Statistical Analysis Tools
+nav_exclude: false
+nav_order: 3
+has_children: true
+child_nav_order: reversed
+parent: Miscellaneous
+grand_parent: SAT Tools
+---
+
 # Box-Cox and Yeo-Johnson Transformation Script
 
 ## Overview
