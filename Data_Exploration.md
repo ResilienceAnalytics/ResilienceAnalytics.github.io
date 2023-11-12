@@ -1,6 +1,6 @@
 ---
 layout: default
-title : Data Exploration
+title : Data Exploration%
 nav_exclude: false
 nav_order: 2
 has_children : true
