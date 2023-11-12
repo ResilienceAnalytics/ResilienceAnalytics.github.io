@@ -1,9 +1,11 @@
 ---
 layout: default
-title: About
+title: Plot Times series
 nav_exclude: false
-nav_order: 21
+nav_order: 2
 child_nav_order: reversed
+parent : Miscellaneous
+grand_parent : SATools
 ---
 
 # Time Series Plotting Script
