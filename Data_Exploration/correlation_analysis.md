@@ -1,9 +1,11 @@
 ---
 layout: default
-title: About
+title: Correlation Cnalysis
 nav_exclude: false
 nav_order: 13
 child_nav_order: reversed
+parent : Data_Exploration
+grand_parent : SATools
 ---
 
 # Correlation Analysis Script
