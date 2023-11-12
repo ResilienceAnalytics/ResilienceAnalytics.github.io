@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: SATools
 nav_exclude: false
 nav_order: 16
 child_nav_order: reversed
