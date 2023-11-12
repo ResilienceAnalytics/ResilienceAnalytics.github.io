@@ -1,9 +1,11 @@
 ---
 layout: default
-title: About
+title: Log Transform
 nav_exclude: false
-nav_order: 17
+nav_order: 2
 child_nav_order: reversed
+parent : Data Transformation
+grand_parent : SATools
 ---
 
 # Logarithmic Transformation Script
