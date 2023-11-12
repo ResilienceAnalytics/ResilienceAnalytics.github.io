@@ -4,7 +4,7 @@ title : Correlation Matrix
 nav_exclude: false
 nav_order: 2
 child_nav_order: reversed
-Parent : Data_Exploration
+parent : Data_Exploration
 grand_parent : SATools
 ---
 
