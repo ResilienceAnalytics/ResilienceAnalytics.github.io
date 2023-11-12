@@ -2,8 +2,10 @@
 layout: default
 title: About
 nav_exclude: false
-nav_order: 12
+nav_order: 4
 child_nav_order: reversed
+parent: Modeling
+grand_parent : SATools
 ---
 
 # Nonlinear Regression Script
