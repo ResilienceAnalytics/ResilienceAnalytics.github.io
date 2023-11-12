@@ -1,9 +1,11 @@
 ---
 layout: default
-title: About
+title: Scale Data
 nav_exclude: false
-nav_order: 12
+nav_order: 1
 child_nav_order: reversed
+parent : Data_Preparation
+grand_parent : SATools
 ---
 
 # Data Scaling Script
