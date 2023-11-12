@@ -26,7 +26,7 @@ python Regression.py <path_to_ods_file> '<independent_vars | dependent_var>' <na
 ### Arguments
 - `<path_to_ods_file>`: The file path to the ODS file containing your dataset.
 - `<independent_vars | dependent_var>`: A string of independent variable names separated by spaces, followed by a pipe character (`|`), and then the dependent variable name.
-- `<nan_strategy>`: Strategy for handling missing values. Options are 'mean' or 'median'.
+- `<nan_strategy>`: Strategy for handling missing values. Options are 'mean', 'median' or 'drop'.
 - `<start_date>`: The starting date for the data analysis in `YYYY-MM-DD` format.
 - `<end_date>`: The ending date for the data analysis in `YYYY-MM-DD` format.
 
