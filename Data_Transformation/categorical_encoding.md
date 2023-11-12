@@ -1,3 +1,4 @@
+---
 layout: default
 title: Categorical Encoding
 nav_exclude: false
@@ -5,8 +6,8 @@ nav_order: 1
 has_children: true
 child_nav_order: reversed
 parent: Data Transformation
-grand_parent: SAT Tools
-
+grand_parent: SATools
+---
 
 # Categorical Encoding Script
 
