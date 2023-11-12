@@ -2,7 +2,7 @@
 layout: default
 title: Correlation Analysis
 nav_exclude: false
-nav_order: 13
+nav_order: 3
 child_nav_order: reversed
 parent : Data_Exploration
 grand_parent : SATools
