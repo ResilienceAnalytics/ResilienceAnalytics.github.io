@@ -6,7 +6,7 @@ nav_order: 3
 has_children: true
 child_nav_order: reversed
 parent: Miscellaneous
-grand_parent: SAT Tools
+grand_parent: SATools
 ---
 
 # Box-Cox and Yeo-Johnson Transformation Script
