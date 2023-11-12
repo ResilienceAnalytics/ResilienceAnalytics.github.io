@@ -1,9 +1,11 @@
 ---
 layout: default
-title: About
+title: Regression Ridge Lasso
 nav_exclude: false
-nav_order: 16
+nav_order: 1
 child_nav_order: reversed
+parent : Data Transformation
+grand_parent : SATools
 ---
 
 # Ridge and Lasso Regression Script
