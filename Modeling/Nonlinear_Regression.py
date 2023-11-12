@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Nonlinear Regression
 nav_exclude: false
 nav_order: 4
 child_nav_order: reversed
@@ -8,7 +8,7 @@ parent: Modeling
 grand_parent : SATools
 ---
 
-# Nonlinear Regression Script
+# Nonlinear Regressio
 
 ## Overview
 
