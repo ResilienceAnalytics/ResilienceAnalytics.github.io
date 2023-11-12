@@ -2,8 +2,7 @@
 layout: default
 title: SATools
 nav_exclude: false
-nav_order: 16
-child_nav_order: reversed
+nav_order: 5
 has_children : true
 ---
 
