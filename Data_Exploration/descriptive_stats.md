@@ -1,9 +1,11 @@
 ---
 layout: default
-title: About
+title: Descriptive Stats
 nav_exclude: false
-nav_order: 18
+nav_order: 1
 child_nav_order: reversed
+parent : Data_Exploration
+grand_parent : SATools
 ---
 
 # Descriptive Statistical Analysis Script
