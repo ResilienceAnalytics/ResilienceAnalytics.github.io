@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Linear Regression
 nav_exclude: false
 nav_order: 1
 child_nav_order: reversed
@@ -8,7 +8,7 @@ parent : Modeling
 grand_parent : SATools
 ---
 
-# Regression Analysis Tool Documentation
+# Linear Regression
 
 ## Overview
 This documentation provides guidance on how to use the `Regression.py` script for performing linear regression analysis. The script requires an ODS file containing the dataset for analysis and command-line arguments specifying the variables and parameters for the regression.
