@@ -1,6 +1,6 @@
 ---
 layout: default
-title:Correlation Matrix
+title : Correlation Matrix
 nav_exclude: false
 nav_order: 2
 child_nav_order: reversed
