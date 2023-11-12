@@ -1,9 +1,11 @@
 ---
 layout: default
-title: About
+title:Correlation Matrix
 nav_exclude: false
-nav_order: 12
+nav_order: 2
 child_nav_order: reversed
+Parent : Data_Exploration
+grand_parent : SAT
 ---
 
 # Correlation Matrix Generator
