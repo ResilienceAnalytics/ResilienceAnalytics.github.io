@@ -1,9 +1,11 @@
 ---
 layout: default
-title: About
+title: Discretize Variables
 nav_exclude: false
-nav_order: 19
+nav_order: 3
 child_nav_order: reversed
+parent : Data_Transformation
+grand_parent : SATools
 ---
 
 # Discretization of Continuous Variables Script
