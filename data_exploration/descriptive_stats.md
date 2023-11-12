@@ -4,7 +4,7 @@ title: Descriptive Stats
 nav_exclude: false
 nav_order: 1
 child_nav_order: reversed
-parent : Data_Exploration
+parent : Data Exploration
 grand_parent : SATools
 ---
 
