@@ -4,7 +4,7 @@ title: Correlation Analysis
 nav_exclude: false
 nav_order: 3
 child_nav_order: reversed
-parent : Data_Exploration
+parent : Data Exploration
 grand_parent : SATools
 ---
 
