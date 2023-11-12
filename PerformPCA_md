@@ -69,6 +69,3 @@ pip install pandas scikit-learn
 - It automatically excludes the 'DATE' column from the PCA.
 - The output includes the principal components and the explained variance ratio.
 
----
-
-This documentation provides a comprehensive guide to using the PCA Script, detailing its functionality, usage, and requirements.
