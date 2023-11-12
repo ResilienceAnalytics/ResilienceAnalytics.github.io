@@ -4,7 +4,7 @@ title: Scale Data
 nav_exclude: false
 nav_order: 1
 child_nav_order: reversed
-parent : Data_Preparation
+parent : Data Preparation
 grand_parent : SATools
 ---
 
