@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Merge On Date
 nav_exclude: false
 nav_order: 2
 child_nav_order: reversed
