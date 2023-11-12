@@ -2,8 +2,10 @@
 layout: default
 title: About
 nav_exclude: false
-nav_order: 10
+nav_order: 1
 child_nav_order: reversed
+parent : Modeling
+grand_parent : SATools
 ---
 
 # Regression Analysis Tool Documentation
