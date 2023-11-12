@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Correlation Cnalysis
+title: Correlation Analysis
 nav_exclude: false
 nav_order: 13
 child_nav_order: reversed
