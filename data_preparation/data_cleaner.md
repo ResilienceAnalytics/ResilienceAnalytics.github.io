@@ -12,57 +12,55 @@ grand_parent: SATools
 
 ## Overview
 
-This Python script provides a solution for handling missing values within a dataset. It offers various strategies like deleting rows with missing values or imputing them using statistical methods such as mean, median, or mode. There is also a hybrid method that applies all strategies and outputs multiple files.
+This Python script efficiently handles missing values in datasets. It offers flexible imputation strategies including mean, median, and a hybrid method. The script supports a variety of file formats and provides an interactive CLI for ease of use.
 
 ## Features
 
-- Easy to use interactive CLI (Command Line Interface).
-- Supports `.csv`, `.xlsx`, and `.ods` file formats for input data.
-- Offers four single imputation methods and one hybrid method for flexibility.
-- Saves cleaned data in the current directory or a specified path.
+- Interactive CLI for ease of use.
+- Supports `.csv`, `.xlsx`, and `.ods` file formats.
+- Multiple imputation methods: mean, median, and hybrid.
+- Option to save cleaned data in a specified directory.
 
 ## How to Use
 
-Run the script in your terminal, and you will be prompted to enter the path to your data file. After loading the data, choose one of the five options provided for handling missing values.
+1. Run the script in your terminal:
 
-```bash
-python data_cleaner.py
-```
+   ```bash
+   python data_cleaner.py
+   ```
 
-Follow the on-screen instructions to provide the required inputs.
+2. Enter the path to your data file when prompted.
+3. Choose the imputation method for numerical data.
+4. Decide whether to save the cleaned data.
 
-## Options for Handling Missing Values
+## Imputation Options
 
-1. **Delete Rows With Missing Values**: Removes all rows that have any missing data.
-2. **Impute Missing Values With Mean**: Replaces missing values with the mean of the respective column.
-3. **Impute Missing Values With Median**: Replaces missing values with the median of the respective column.
-4. **Impute Missing Values With Mode**: Replaces missing values with the mode of the respective column.
-5. **Hybrid Method With Multiple Output Files**: Applies all the above methods and saves each result in a separate file.
+- **Mean**: Replaces missing values with the column's mean.
+- **Median**: Uses the median for missing data replacement.
+- **Hybrid**: Applies both mean and median imputations, saving the results in separate files.
 
-## Saving the Cleaned Data
+## Saving Options
 
-After the cleaning process, you have the option to save the cleaned data. If you choose to save, you will be asked to enter the output directory path. If you want to save in the current working directory, simply enter `.` when prompted.
+- Press `Enter` or type `yes` to save the cleaned data.
+- Specify the output directory path when prompted.
+- For the hybrid method, separate files for each imputation strategy are saved in the specified directory.
 
 ## Output Files
 
-- `cleaned_data_delete.csv`: Contains the data after rows with missing values have been removed.
-- `cleaned_data_impute_mean.csv`: Contains the data after missing values have been replaced with column means.
-- `cleaned_data_impute_median.csv`: Contains the data after missing values have been replaced with column medians.
-- `cleaned_data_impute_mode.csv`: Contains the data after missing values have been replaced with column modes.
-- Hybrid method output: For each imputation strategy, a corresponding `.csv` file is generated.
+- Named after the original file with the addition of the imputation strategy.
+- For the hybrid method, two files are generated: one for mean and another for median imputation.
 
 ## Dependencies
 
-- pandas: For data manipulation and reading files.
-- numpy: For numerical operations.
-- scikit-learn: For the `SimpleImputer` class used in imputing missing values.
+- Pandas, Numpy, and Scikit-learn.
 
-Install these dependencies using pip:
+  Install with pip:
 
-```bash
-pip install pandas numpy scikit-learn
-```
+  ```bash
+  pip install pandas numpy scikit-learn
+  ```
 
 ## Notes
 
-Ensure that the input data file is correctly formatted and that all placeholders for missing values are consistent. The script can handle numeric columns and will ignore date columns during the imputation process.
+- Ensure the input file is well-formatted.
+- The script handles numeric and categorical data but excludes datetime columns from imputation.
