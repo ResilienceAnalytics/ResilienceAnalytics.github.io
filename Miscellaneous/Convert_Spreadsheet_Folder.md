@@ -58,6 +58,3 @@ Examples:
 - The batch conversion process is efficient and user-friendly, requiring only the directory paths and the desired output format.
 - Users should verify that the paths to the input and output directories, as well as the output format, are correctly specified to prevent errors.
 - The script includes error handling to skip files with unsupported formats and continue processing.
-```
-
-This markdown documentation provides a structured and detailed guide for using the `convert_spreadsheet_folder.py` script, including an overview, functionality description, usage examples, and notes on dependencies and error handling.
