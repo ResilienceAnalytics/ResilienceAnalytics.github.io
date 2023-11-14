@@ -2,7 +2,7 @@
 layout: default
 title: "Time Series Data Segmentation and ARIMA Modeling Script"
 nav_exclude: false
-nav_order: 8
+nav_order: 9
 child_nav_order: reversed
 parent: Data Transformation
 grand_parent: SATools
