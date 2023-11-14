@@ -1,0 +1,27 @@
+---
+layout: default
+title: Detect Rupture Columns
+nav_exclude: false
+nav_order: 5
+child_nav_order: reversed
+parent: Data Transformation
+grand_parent: SATools
+---
+
+# Detect Rupture Columns
+
+This documentation covers the Python script designed to handle missing values in datasets. The script is capable of processing data from CSV, XLSX, and ODS files. It offers the flexibility to either target specific columns or to apply its functionality to all columns in the dataset.
+
+## Features
+
+- **Load and Convert Data**: Converts CSV and XLSX files into ODS format for uniform processing.
+- **Fill Missing Values**: Handles missing values (NaNs) in the dataset. It can operate on specified columns or on all columns if indicated.
+- **Backward Fill From First Non-NaN**: Identifies the first non-NaN value in each column (or the specified columns) and fills preceding NaN values backwards.
+- **Handle Intermediate NaN Values**: Fills NaN values in the middle of the data series with the last valid (non-NaN) value encountered.
+
+## Usage
+
+The script can be executed from the command line with the file path and the names of the columns to be processed as arguments. To process all columns, use 'all' as the column name.
+
+```bash
+python script.py <file_path> <column_name> or <'all'>
