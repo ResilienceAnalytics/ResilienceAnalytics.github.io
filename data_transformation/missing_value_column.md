@@ -25,3 +25,18 @@ The script can be executed from the command line with the file path and the name
 
 ```bash
 python script.py <file_path> <column_name> or <'all'>
+```
+
+Example:
+```bash
+python script.py dataset.csv all
+```
+
+This command will process 'dataset.csv' and fill missing values in all columns.
+
+## Output
+
+The script will output the processed data in ODS format. If the input file was in CSV or XLSX format, it will also provide a converted ODS version of the input file.
+
+The processed data will be saved in a file named 'processed_data.ods', and the path to this file will be printed to the console upon completion.
+
