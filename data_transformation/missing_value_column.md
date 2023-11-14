@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Detect Rupture Columns
+title: Missing Value Column version
 nav_exclude: false
-nav_order: 5
+nav_order: 6
 child_nav_order: reversed
 parent: Data Transformation
 grand_parent: SATools
 ---
 
-# Detect Rupture Columns
+# Missing Value Column version
 
 This documentation covers the Python script designed to handle missing values in datasets. The script is capable of processing data from CSV, XLSX, and ODS files. It offers the flexibility to either target specific columns or to apply its functionality to all columns in the dataset.
 
