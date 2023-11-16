@@ -16,7 +16,7 @@ Expert in reverse engineering complex systems with a focus on security and commu
 
 **Skills and Competencies**
 - **Programming**: Proficient in C, Python, MATLAB, and LabVIEW (2009)
-- **Software & Tools**: Proficient in GNU Radio and HackRF One for advanced radio communication and signal processing. Skilled in using Ubertooth One for Bluetooth testing and monitoring. Experienced with Arduino and Raspberry Pi for creating and prototyping electronic projects and IoT solutions.
+- **Software & Tools**: Proficient in GNU Radio USRP, IQ Files and HackRF One for advanced radio communication and signal processing. Skilled in using Ubertooth One for Bluetooth testing and monitoring. Experienced with Arduino and Raspberry Pi for creating and prototyping electronic projects and IoT solutions.
 - **Signal Processing & Communications**: Expert in satellite communication (C, L, S, X, Ku, Ka bands), Hertzian beams, VHF/UHF systems, goniometry
 - **Data Analysis**: Proficient in statistical data analysis, binary train analysis, error correction coding
 - **Hardware Expertise**: Experienced in satellite receiver maintenance and repair, direction-finding equipment
