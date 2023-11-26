@@ -1,6 +1,6 @@
 ---
 layout: default
-title: rincipal Component Analysis
+title: Principal Component Analysis
 nav_exclude: false
 nav_order: 3
 child_nav_order: reversed
