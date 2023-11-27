@@ -110,6 +110,7 @@ namespace dalle {
     referenced_image_ids?: string[],
   }) => any;
 }
+```
 
 ## Enhanced Online Research Tools and Skills
 
