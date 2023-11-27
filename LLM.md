@@ -3,7 +3,6 @@ layout: default
 title: Large Language Model
 nav_exclude: false
 nav_order: 10
-has_children: true
 ---
 
 # Towards a New Providential Figure: Artificial Intelligence in the Service of Enlightened and Human Governance
