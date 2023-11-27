@@ -3,7 +3,6 @@ layout: default
 title: PyEquationCraft
 nav_exclude: false
 child_nav_order: reversed
-
 ---
 
 # PyEquationCraft
