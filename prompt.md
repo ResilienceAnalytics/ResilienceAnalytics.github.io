@@ -3,6 +3,7 @@ layout: default
 title: Prompt
 nav_exclude: false
 nav_order: 7
+has_children : true
 ---
 
 # HAL - ChatGPT with Advanced Economic Analysis
