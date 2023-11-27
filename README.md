@@ -1,8 +1,3 @@
----
-layout: default
-title: README
----
-
 # README
 
 The principles of thermodynamics, particularly those related to dissipative systems and thermodynamic equilibrium, offer valuable insights into biological processes.
