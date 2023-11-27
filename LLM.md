@@ -8,6 +8,8 @@ has_children: true
 
 # Towards a New Providential Figure: Artificial Intelligence in the Service of Enlightened and Human Governance
 
+_We do not await the providential figure; we will build it ourselves._
+
 **Introduction**
 
 In a rapidly changing world, where complex challenges abound, it is time to reinvent the concept of the providential leader. This reflection proposes a bold vision: to place Large Language Models (LLMs) at the heart of a "new social grammar". However, a caveat is essential: humans should neither be idolized nor relegated to a secondary role in this process.
