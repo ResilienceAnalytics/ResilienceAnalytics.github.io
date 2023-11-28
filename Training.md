@@ -46,5 +46,5 @@ To implement this method, you would need skills in data science and machine lear
 
 ## Conclusion
 
-This approach would enable ChatGPT-5 to better understand and separate theoretical and practical aspects in textual analyses, aligning with the author's methodology in "Reflexions". However, it involves considerable effort in terms of data collection, annotation, model training, and validation.
+This approach would enable ChatGPT-5 to better understand and separate theoretical and practical aspects in textual analyses, aligning with the author's methodology in "Reflexions". 
 
