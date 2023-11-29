@@ -11,6 +11,8 @@ parent: Prompt
 
 In the realm of digital document processing, the ability to extract and analyze content from PDF files is a crucial task. The 'Tokenize' script, written in Python, is an exceptional tool that automates this process. It offers a streamlined approach to extract text and images from PDF documents, apply Optical Character Recognition (OCR) to images, tokenize the text, and finally, save these results in a structured format. This article delves into the operation of this script and illustrates its functionality with a practical example.
 
+([Access script]([https://github.com/ResilienceAnalytics/Python-Code/blob/main/tokenize.py])){: .btn .btn-purple }
+
 To set up your environment for running the 'Tokenize' script, execute the following command to install the required Python packages: 
 
 `pip install pdfplumber nltk pytesseract pillow`
