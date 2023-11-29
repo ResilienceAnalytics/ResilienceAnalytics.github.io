@@ -7,61 +7,65 @@ has_children: false
 parent: Prompt
 ---
 
-# Tokenize
+# TokenizeNClassify
+
+[Access Script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/TokenizeNClassify.py){: .btn .btn-purple }
 
 ## Overview
 
-The `TokenizeNClassify` script is designed to perform text tokenization and domain classification, seamlessly integrating different aspects of natural and human sciences. It leverages advanced NLP techniques to extract and classify terms from any given text, making it a valuable tool for linguistic analysis and data processing.
+The `TokenizeNClassify` script is a robust tool designed for advanced text analysis. It combines text extraction from PDFs, Optical Character Recognition (OCR) for image-based text, and sophisticated text tokenization and classification. The script is particularly adept at categorizing terms into 'Natural Sciences' or 'Human Sciences', utilizing a comprehensive, customizable dataset. This functionality makes it an indispensable tool for researchers and professionals engaged in interdisciplinary studies.
 
 ## Features
 
-- **Text Tokenization**: The script tokenizes input text, breaking it down into individual words or terms.
-- **Domain Classification**: Each token is classified as belonging to either "Natural Sciences" or "Human Sciences" based on a predefined dataset.
-- **Customizable Dataset**: The script includes a modifiable dataset that can be tailored to specific needs or terminologies.
-- **PDF Text Extraction**: Ability to extract text from PDF files for tokenization and classification.
-- **OCR Integration**: Includes Optical Character Recognition (OCR) for processing images within PDFs.
+- **PDF Text Extraction**: Extracts text from PDF documents, ensuring comprehensive text analysis.
+- **OCR Capabilities**: Processes text embedded in images within PDFs using Optical Character Recognition.
+- **Advanced Text Tokenization**: Employs both NLTK and BERT tokenizers to handle various levels of text complexity.
+- **Domain Classification**: Classifies tokens according to a predefined dataset, distinguishing between 'Natural Sciences' and 'Human Sciences'.
+- **Customizable Dataset**: The script’s dataset is flexible and can be tailored to include specific terminologies and classifications.
+- **Multi-Level Processing**: Capable of handling and analyzing both text and images, providing a holistic approach to document analysis.
 
 ## Requirements
 
 - Python 3.x
-- `nltk` library
-- `pdfplumber` library (for PDF processing)
+- `nltk` library for natural language processing
+- `pdfplumber` library for extracting text from PDFs
 - `PIL` (Python Imaging Library) for image processing
-- `transformers` library for advanced tokenization (BERT tokenizer)
+- `transformers` library for advanced tokenization using the BERT model
 
 ## Installation
 
-1. Install Python 3.x from the [official Python website](https://www.python.org/downloads/).
-2. Install the required Python libraries using pip:
+1. Ensure Python 3.x is installed from the [official Python website](https://www.python.org/downloads/).
+2. Install the required libraries using pip:
 
    ```bash
    pip install nltk pdfplumber Pillow transformers
    ```
 
-3. Clone or download the script from the repository.
+3. Clone or download the `TokenizeNClassify` script from the [GitHub repository](https://github.com/ResilienceAnalytics/Python-Code/blob/main/TokenizeNClassify.py).
 
 ## Usage
 
-Run the script from the command line with the path to the text or PDF file as an argument:
+To use the script, run it from the command line with the path to a PDF file and the desired tokenization method:
 
 ```bash
-python TokenizeNClassify.py <path_to_file>
+python TokenizeNClassify.py <path_to_pdf> <tokenization_method>
 ```
 
-The script will output the tokenized and classified text. For PDF files, both text and image contents are processed.
+The script processes the PDF file and outputs the results, including tokenized and classified text.
 
 ## Dataset Customization
 
-The script's dataset can be customized by adding or modifying terms and their associated domains. This allows for greater flexibility and adaptability to different fields and terminologies.
+The script's dataset is highly adaptable. Users can add or modify terms, adjusting their domain classifications to suit various research or project needs.
 
 ## Contributing
 
-Contributions to the script are welcome. You can contribute by improving the script's functionality, enhancing the dataset, or reporting issues.
+Contributions to enhance `TokenizeNClassify` are encouraged. Improvements can include functionality enhancements, dataset expansion, or other feature integrations.
 
 ## License
 
-The `Tokenize` script is released under the [MIT License](https://opensource.org/licenses/MIT).
+`TokenizeNClassify` is available under the [MIT License](https://opensource.org/licenses/MIT), promoting open and collaborative development.
 
 ## Support
 
-For support or inquiries, please open an issue in the script's repository, or contact the maintainer at [maintainer's email/contact information].
+For questions, support, or feedback, please open an issue in the [GitHub repository](https://github.com/ResilienceAnalytics/Python-Code/issues), or contact the maintainer directly via email or other provided contact information.
+
