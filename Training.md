@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Training ChatGPT-5 for Theory vs Application Analysis
+title: Training ChatGPT-5 for Analysis
 nav_exclude: false
 nav_order: 2
 has_children: false
