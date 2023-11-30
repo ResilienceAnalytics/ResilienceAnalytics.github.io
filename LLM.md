@@ -2,7 +2,7 @@
 layout: default
 title: Target
 nav_exclude: false
-nav_order: 10
+nav_order: 4
 ---
 
 # Towards a New Providential Figure: Artificial Intelligence in the Service of Enlightened and Human Governance
