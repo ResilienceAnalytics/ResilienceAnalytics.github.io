@@ -6,4 +6,9 @@ nav_exclude: true
 
 ## Ongoing Updates
 
-Our website is currently undergoing regular updates to enhance your experience. Particularly, the SATools section, dedicated to economic and financial data analysis, is being enhanced to provide more advanced tools and features. We invite you to return later to discover the new updates and improvements. Thank you for your patience and understanding.
+We are excited to announce that our website is in the midst of significant enhancements to elevate your experience. We're focusing particularly on our LLM and ML Application segment, dedicated to pioneering classification methods for AI, and the SATools section, tailored for in-depth economic and financial data analysis. Our team is working diligently to integrate more sophisticated tools and innovative features.
+
+![Enhancements in Progress](/images/DALL.png)
+
+We warmly invite you to revisit us soon to explore the new advancements and improvements. Your patience and understanding during this transformation phase are greatly appreciated. Thank you for being a part of our journey towards excellence.
+
