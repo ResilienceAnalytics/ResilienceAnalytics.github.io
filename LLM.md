@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Large Language Model
+title: Target
 nav_exclude: false
 nav_order: 10
 ---
