@@ -4,7 +4,7 @@ title: Tokenize
 nav_exclude: false
 nav_order: 3
 has_children: false
-parent: Prompt
+parent: LLM and ML application
 ---
 
 # Utilizing the 'Tokenize' Python Script for Efficient PDF Processing
