@@ -42,4 +42,7 @@ Expert in reverse engineering complex systems with a focus on security and commu
 **Contact**
 Available for further information and inquiries.
 
+**Magazine**
+https://connect.ed-diamond.com/MISC/misc-086/analyse-radiofrequence-d-une-cle-de-voiture
+
 
