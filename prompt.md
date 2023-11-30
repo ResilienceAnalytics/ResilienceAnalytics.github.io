@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Prompt
+title: LLM and ML application
 nav_exclude: false
 nav_order: 7
 has_children : true
