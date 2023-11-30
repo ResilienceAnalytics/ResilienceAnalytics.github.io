@@ -2,7 +2,7 @@
 layout: default
 title: LLM and ML application
 nav_exclude: false
-nav_order: 7
+nav_order: 3
 has_children : true
 ---
 
