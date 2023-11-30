@@ -26,7 +26,7 @@ Regarding the tokenization of knowledge, a vectorized approach using a Hidden Ma
 
 Epilogue:
 
-It would be interesting to model living beings using an HMM with intangible characteristics (such as laziness, greed, selfishness - all devoid of moral or ethical judgment) and to tokenize and vectorize this set in a complex dataset. On one side, this information is subject to space-time and the point of observation, to the event horizon; in space-time, this information would be subject to events where the constraint is not the arrow of time, but the unfolding of successive and relentless events until singularity.
+It would be interesting to model living beings using an HMM with intangible characteristics (such as laziness, greed, selfishness - all devoid of moral or ethical judgment) and to tokenize and vectorize this set in a complex dataset. On one side, this information is subject to space-time and the point of observation, to the event horizon; in time-space, this information would be subject to events where the constraint is not the arrow of time, but the unfolding of successive and relentless events until singularity.
 
 
 ## Work, Money, Power: A Reflection
