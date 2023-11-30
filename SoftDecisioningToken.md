@@ -4,7 +4,7 @@ title: SoftDecisioningToken
 nav_exclude: false
 nav_order: 6
 has_children: false
-parent: Prompt
+parent: LLM and ML application
 ---
 
 # Soft Decisioning Probabilistic Tokenization
