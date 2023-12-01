@@ -2,7 +2,7 @@
 layout: default
 title: Matrix of characteristics
 nav_exclude: false
-nav_order: 8
+nav_order: 5
 ---
 ## Matrix of characteristics
 
