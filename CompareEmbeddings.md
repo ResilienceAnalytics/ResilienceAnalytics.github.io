@@ -18,13 +18,13 @@ Traditional analysis techniques, such as cosine similarity or Euclidean distance
 **Introducing Symbolic Differentiation in Word Embeddings Analysis**:
 Our approach applies symbolic differentiation to examine the changes across each dimension of word embeddings, adhering to the principles of Occam's razor for analytical simplicity and effectiveness. The method is formulated as follows:
 
-Given old and new embeddings of a word, 
+Given old and new embeddings of a word,
 
-\( \mathbf{V}_{old} = (v_{1, old}, v_{2, old}, \ldots, v_{n, old}) \) and \( \mathbf{V}_{new} = (v_{1, new}, v_{2, new}, \ldots, v_{n, new}) \), 
+Vold=(v1,old,v2,old,…,vn,old)Vold​=(v1,old​,v2,old​,…,vn,old​) and Vnew=(v1,new,v2,new,…,vn,new)Vnew​=(v1,new​,v2,new​,…,vn,new​),
 
-the product difference for each dimension \( i \) is calculated as:
+the product difference for each dimension ii is calculated as:
 
-\[ \Delta V_i = (v_{i, new} - v_{i, old}) \times v_{i, old} \]
+ΔVi=(vi,new−vi,old)×vi,oldΔVi​=(vi,new​−vi,old​)×vi,old​
 
 This approach provides a detailed view of the evolution in each specific dimension, while maintaining a relative perspective, crucial for avoiding overinterpretation of data.
 
