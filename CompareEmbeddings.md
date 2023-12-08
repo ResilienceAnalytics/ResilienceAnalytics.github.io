@@ -43,3 +43,75 @@ We present a Python script that facilitates this advanced analysis by allowing c
 
 **Conclusion**:
 This symbolic differentiation approach in word embeddings analysis, grounded in the principle of relative dimensionality and Occam's razor, provides a more refined and contextually relevant understanding of linguistic evolution. As NLP progresses, such methods will be crucial for a deeper understanding of language dynamics and their correlation with societal changes.
+
+
+```python
+import sys
+from gensim.models import KeyedVectors
+
+def load_model(file_path):
+    """
+    Load the model from the specified file path.
+    
+    :param file_path: Path to the .vec file containing the embeddings.
+    :return: The loaded model.
+    """
+    return KeyedVectors.load_word2vec_format(file_path, binary=False)
+
+def calculate_product_difference(word, model_1, model_2):
+    """
+    Calculate the product difference for a specific word in both models.
+    
+    :param word: The word to compare.
+    :param model_1: The first word embeddings model.
+    :param model_2: The second word embeddings model.
+    :return: The product difference for the word.
+    """
+    vector_1 = model_1[word]
+    vector_2 = model_2[word]
+    difference = vector_2 - vector_1
+    return difference * vector_1  # Element-wise multiplication
+
+def calculate_differences_for_all_words(model_1, model_2):
+    """
+    Calculate the product differences for all common words in both models.
+    
+    :param model_1: The first word embeddings model.
+    :param model_2: The second word embeddings model.
+    :return: A dictionary with words as keys and their product differences as values.
+    """
+    common_words = set(model_1.key_to_index.keys()).intersection(model_2.key_to_index.keys())
+    differences = {word: calculate_product_difference(word, model_1, model_2) for word in common_words}
+    return differences
+
+def main(model_file_1, model_file_2, word):
+    """
+    Main function to load the models and calculate the product difference for the specified word.
+    If 'ALL' is specified, calculate for all common words.
+    
+    :param model_file_1: The file path to the first model.
+    :param model_file_2: The file path to the second model.
+    :param word: The word to compare or 'ALL' for all words.
+    """
+    model_1 = load_model(model_file_1)
+    model_2 = load_model(model_file_2)
+
+    if word.upper() == 'ALL':
+        differences = calculate_differences_for_all_words(model_1, model_2)
+        for word, diff in list(differences.items())[:10]:  # Displaying the first 10 for brevity
+            print(f"Word '{word}' has the following product difference: {diff}")
+    elif word in model_1.key_to_index and word in model_2.key_to_index:
+        difference = calculate_product_difference(word, model_1, model_2)
+        print(f"Word '{word}' has the following product difference: {difference}")
+    else:
+        print(f"Word '{word}' not found in one or both of the models.")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 4:
+        print("Usage: python compare_embeddings.py <model_file_1> <model_file_2> <word or 'ALL'>")
+        sys.exit(1)
+
+    model_file_1, model_file_2, word = sys.argv[1], sys.argv[2], sys.argv[3]
+    main(model_file_1, model_file_2, word)
+
+```
