@@ -4,7 +4,8 @@ title: Soft Decisioning Probabilistic Tokenization
 nav_exclude: false
 nav_order: 6
 has_children: false
-parent: LLM and ML application
+parent: Processus
+grand_parent: LLM and ML application
 ---
 
 # Soft Decisioning Probabilistic Tokenization
