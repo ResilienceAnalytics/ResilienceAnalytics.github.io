@@ -7,7 +7,7 @@ has_children: true
 parent: LLM and ML application
 ---
 
-**Title**: Leveraging Symbolic Differentiation in Word Embeddings Analysis: A Relative Dimensionality Approach
+## Leveraging Symbolic Differentiation in Word Embeddings Analysis: A Relative Dimensionality Approach
 
 **Introduction**:
 In the field of natural language processing (NLP), the exploration of word embeddings offers crucial insights into linguistic patterns and shifts. While traditional methods provide valuable overviews, they often overlook subtle shifts within the embeddings. To address this, we propose a method utilizing symbolic differentiation, focusing on relative dimensionality changes in word embeddings to offer nuanced analysis.
