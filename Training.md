@@ -4,7 +4,8 @@ title: Training ChatGPT-5 for Analysis
 nav_exclude: false
 nav_order: 2
 has_children: false
-parent: LLM and ML application
+parent: Processus
+grand_parent: LLM and ML application
 ---
 
 # Training ChatGPT-5 for Theory vs Application Analysis
