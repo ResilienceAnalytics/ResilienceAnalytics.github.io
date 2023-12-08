@@ -3,7 +3,7 @@ layout: default
 title: Compare Embeddings
 nav_exclude: false
 nav_order: 2
-has_children: true
+has_children: false
 parent: LLM and ML application
 ---
 
@@ -20,11 +20,11 @@ Our approach applies symbolic differentiation to examine the changes across each
 
 Given old and new embeddings of a word,
 
-$$Vold=(v1,old,v2,old,…,vn,old)$$ and $$Vnew=(v1,new,v2,new,…,vn,new)$$,
+$$Vold=(v1_old,v2_old,…,vn_old)$$ and $$Vnew=(v1_new,v2_new,…,vn_new)$$,
 
 the product difference for each dimension ii is calculated as:
 
-$$ΔVi=(vi,new−vi,old)×vi$$ ,$$
+$$ΔVi=(vi_new−vi_old)×vi$$ ,
 
 This approach provides a detailed view of the evolution in each specific dimension, while maintaining a relative perspective, crucial for avoiding overinterpretation of data.
 
