@@ -4,7 +4,8 @@ title: Advanced SPDT with HMM and Viterbi in NLP
 nav_exclude: false
 nav_order: 8
 has_children: false
-parent: LLM and ML application
+parent: Processus
+grand_parent: LLM and ML application
 ---
 
 # Advanced SPDT with HMM and Viterbi in NLP
