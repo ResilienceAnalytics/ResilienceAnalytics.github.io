@@ -43,7 +43,3 @@ We present a Python script that facilitates this advanced analysis by allowing c
 
 **Conclusion**:
 This symbolic differentiation approach in word embeddings analysis, grounded in the principle of relative dimensionality and Occam's razor, provides a more refined and contextually relevant understanding of linguistic evolution. As NLP progresses, such methods will be crucial for a deeper understanding of language dynamics and their correlation with societal changes.
-
----
-
-This article emphasizes the importance of a relative dimensionality approach in word embeddings analysis, aligning with the simplicity and effectiveness principles of Occam's razor, to provide a more precise and meaningful understanding of language evolution in NLP.
