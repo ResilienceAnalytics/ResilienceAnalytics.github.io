@@ -4,7 +4,8 @@ title: Semantic Variability Scoring Algorithm
 nav_exclude: false
 nav_order: 9
 has_children: false
-parent: LLM and ML application
+parent: Processus
+grand_parent: LLM and ML application
 ---
 
 # Semantic Variability Scoring Algorithm - Turbo-like
