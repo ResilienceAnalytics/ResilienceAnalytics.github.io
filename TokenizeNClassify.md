@@ -4,7 +4,8 @@ title: TokenizeNClassify
 nav_exclude: false
 nav_order: 5
 has_children: false
-parent: LLM and ML application
+parent: Processus
+grand_parent: LLM and ML application
 ---
 
 # TokenizeNClassify
