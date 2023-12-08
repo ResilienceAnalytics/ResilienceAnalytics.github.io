@@ -4,7 +4,8 @@ title: Training ChatGPT-5 for Theory vs Application Analysis
 nav_exclude: false
 nav_order: 3
 has_children: false
-parent: LLM and ML application
+parent: Processus
+grand_parent: LLM and ML application
 ---
 
 ## High-Level Description for a Theoretical Model like GPT-5 with Specified Algorithm
