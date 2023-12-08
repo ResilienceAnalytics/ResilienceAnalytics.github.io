@@ -20,11 +20,11 @@ Our approach applies symbolic differentiation to examine the changes across each
 
 Given old and new embeddings of a word,
 
-Vold=(v1,old,v2,old,…,vn,old)Vold​=(v1,old​,v2,old​,…,vn,old​) and Vnew=(v1,new,v2,new,…,vn,new)Vnew​=(v1,new​,v2,new​,…,vn,new​),
+$$Vold=(v1,old,v2,old,…,vn,old)$$ and $$Vnew=(v1,new,v2,new,…,vn,new)$$,
 
 the product difference for each dimension ii is calculated as:
 
-ΔVi=(vi,new−vi,old)×vi,oldΔVi​=(vi,new​−vi,old​)×vi,old​
+$$ΔVi=(vi,new−vi,old)×vi$$ ,$$
 
 This approach provides a detailed view of the evolution in each specific dimension, while maintaining a relative perspective, crucial for avoiding overinterpretation of data.
 
