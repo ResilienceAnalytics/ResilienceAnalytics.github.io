@@ -22,11 +22,16 @@ Given old and new embeddings of a word,
 
 $$Vold=(v1_{old},v2_{old},…,vn_{old})$$ and $$V{new}=(v1_{new},v2_{new},…,vn_{new})$$,
 
-the product difference for each dimension ii is calculated as:
+the product difference for each dimension i is calculated as:
 
 $$ΔVi=(vi_{new}−vi_{old})×vi$$ ,
 
-This approach provides a detailed view of the evolution in each specific dimension, while maintaining a relative perspective, crucial for avoiding overinterpretation of data.
+and the sum of products for each dimension is:
+
+$$ΣVi=(vi_{old}⋅Δvi_{new})+(Δvi_{old}⋅vi_{new})$$
+
+This dual approach provides a detailed view of the evolution in each specific dimension, while maintaining a relative perspective, crucial for avoiding overinterpretation of data.
+
 
 **Advantages of the Product Differentiation Method with Relative Dimensionality**:
 
@@ -60,25 +65,32 @@ def load_model(file_path):
 
 def calculate_product_difference(word, model_1, model_2):
     """
-    Calculate the product difference for a specific word in both models.
+    Calculate various measures of difference for a specific word in both models.
     
     :param word: The word to compare.
     :param model_1: The first word embeddings model.
     :param model_2: The second word embeddings model.
-    :return: The product difference for the word.
+    :return: A tuple with different measures of difference.
     """
     vector_1 = model_1[word]
     vector_2 = model_2[word]
-    difference = vector_2 - vector_1
-    return difference * vector_1  # Element-wise multiplication
+    dn = vector_2 - vector_1
+
+    # Element-wise multiplication: (vector2 - vector1) * vector1
+    elementwise_product = dn * vector_1
+
+    # Sum of products for each dimension: ni * dni' + dni * ni'
+    sum_of_products = sum(n1 * dn_i + dn_i * n2 for n1, n2, dn_i in zip(vector_1, vector_2, dn))
+
+    return elementwise_product, sum_of_products, dn
 
 def calculate_differences_for_all_words(model_1, model_2):
     """
-    Calculate the product differences for all common words in both models.
+    Calculate various measures of differences for all common words in both models.
     
     :param model_1: The first word embeddings model.
     :param model_2: The second word embeddings model.
-    :return: A dictionary with words as keys and their product differences as values.
+    :return: A dictionary with words as keys and their different measures of differences as values.
     """
     common_words = set(model_1.key_to_index.keys()).intersection(model_2.key_to_index.keys())
     differences = {word: calculate_product_difference(word, model_1, model_2) for word in common_words}
@@ -86,7 +98,7 @@ def calculate_differences_for_all_words(model_1, model_2):
 
 def main(model_file_1, model_file_2, word):
     """
-    Main function to load the models and calculate the product difference for the specified word.
+    Main function to load the models and calculate various measures of difference for the specified word.
     If 'ALL' is specified, calculate for all common words.
     
     :param model_file_1: The file path to the first model.
@@ -98,11 +110,17 @@ def main(model_file_1, model_file_2, word):
 
     if word.upper() == 'ALL':
         differences = calculate_differences_for_all_words(model_1, model_2)
-        for word, diff in list(differences.items())[:10]:  # Displaying the first 10 for brevity
-            print(f"Word '{word}' has the following product difference: {diff}")
+        for word, (elementwise_product, sum_of_products, dn) in list(differences.items())[:10]:
+            print(f"Word '{word}' has the following measures of differences:")
+            print(f"Element-wise product: {elementwise_product}")
+            print(f"Sum of products: {sum_of_products}")
+            print(f"Vector of differences: {dn}")
     elif word in model_1.key_to_index and word in model_2.key_to_index:
-        difference = calculate_product_difference(word, model_1, model_2)
-        print(f"Word '{word}' has the following product difference: {difference}")
+        elementwise_product, sum_of_products, dn = calculate_product_difference(word, model_1, model_2)
+        print(f"Word '{word}' has the following measures of differences:")
+        print(f"Element-wise product: {elementwise_product}")
+        print(f"Sum of products: {sum_of_products}")
+        print(f"Vector of differences: {dn}")
     else:
         print(f"Word '{word}' not found in one or both of the models.")
 
