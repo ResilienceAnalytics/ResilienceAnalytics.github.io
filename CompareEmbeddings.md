@@ -54,6 +54,7 @@ This symbolic differentiation approach in word embeddings analysis, grounded in 
 import sys
 from gensim.models import KeyedVectors
 import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 
 def load_model(file_path):
     """
@@ -85,8 +86,11 @@ def calculate_product_difference(word, model_1, model_2):
 
     # Euclidean distance
     euclidean_distance = np.linalg.norm(dn)
+    
+    # Cosinus Similarity
+    cosine_sim = cosine_similarity([vector_1], [vector_2])[0][0]
 
-    return elementwise_product, sum_of_products, dn, euclidean_distance
+    return elementwise_product, sum_of_products, dn, euclidean_distance, cosine_sim
 
 def calculate_differences_for_all_words(model_1, model_2):
     """
@@ -114,19 +118,21 @@ def main(model_file_1, model_file_2, word):
 
     if word.upper() == 'ALL':
         differences = calculate_differences_for_all_words(model_1, model_2)
-        for word, (elementwise_product, sum_of_products, dn, euclidean_distance) in list(differences.items())[:10]:
+        for word, (elementwise_product, sum_of_products, dn, euclidean_distance, cosine_sim) in list(differences.items())[:10]:
             print(f"Word '{word}' has the following measures of differences:")
             print(f"Element-wise product: {elementwise_product}")
             print(f"Sum of products: {sum_of_products}")
             print(f"Vector of differences: {dn}")
             print(f"Euclidean distance: {euclidean_distance}")
+            print(f"Cosine similarity: {cosine_sim}")
     elif word in model_1.key_to_index and word in model_2.key_to_index:
-        elementwise_product, sum_of_products, dn, euclidean_distance = calculate_product_difference(word, model_1, model_2)
+        elementwise_product, sum_of_products, dn, euclidean_distance, cosine_sim = calculate_product_difference(word, model_1, model_2)
         print(f"Word '{word}' has the following measures of differences:")
         print(f"Element-wise product: {elementwise_product}")
         print(f"Sum of products: {sum_of_products}")
         print(f"Vector of differences: {dn}")
         print(f"Euclidean distance: {euclidean_distance}")
+        print(f"Cosine similarity: {cosine_sim}")
     else:
         print(f"Word '{word}' not found in one or both of the models.")
 
@@ -137,6 +143,7 @@ if __name__ == "__main__":
 
     model_file_1, model_file_2, word = sys.argv[1], sys.argv[2], sys.argv[3]
     main(model_file_1, model_file_2, word)
+
 
 
 ```
@@ -299,4 +306,5 @@ Vector of differences: [ 1.08199999e-01 -4.16700006e-01  3.08800012e-01  5.31000
  -3.24000008e-02  9.96000022e-02  5.70000000e-02 -3.49999964e-03
   1.78999994e-02 -8.41000006e-02 -1.52000003e-02  7.00000674e-04]
 Euclidean distance: 1.442521333694458
+Cosine similarity: -0.04044608771800995
 ```
