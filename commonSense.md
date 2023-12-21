@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Common Sense to Bannish
+title: Common Sense to Banish
 nav_exclude: false
 nav_order: 9
 ---
@@ -8,7 +8,7 @@ nav_order: 9
 #### Nota Bene
 I would add that personally, I still do not know precisely what consciousness is, nor even life. As I progress through life, my boundaries relentlessly move away. What seemed obvious to me before now appears false or devoid of interest, yet without carrying any moral value. I realize that as I get older, I only begin to understand what a transformation is.
 
-## Common Sense to Bannish: A Metaphorical Journey from Mathematics to Philosophy
+## Common Sense to Banish: A Metaphorical Journey from Mathematics to Philosophy
 
 In the realms of data science and mathematics, concepts like cosine similarity and L2 distance are fundamental tools used for understanding relationships between data points. But have you ever considered how these mathematical concepts might parallel philosophical ideas like 'common sense' and 'reason'? This intriguing analogy offers a fresh perspective on familiar mathematical operations.
 
