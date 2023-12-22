@@ -24,7 +24,7 @@ Expert in reverse engineering complex systems with a focus on security and commu
 - **Security Tools**: Developed and utilized rainbow tables for cracking encryption in 2G/3G networks, showcasing advanced skills in cryptographic security and vulnerability analysis. Demonstrated expertise in spread spectrum technologies by successfully identifying sequences through blind analysis, highlighting proficiency in complex signal processing and encryption techniques
 
 **Work Experience**
-- **Independent Consultant** (2018 - Present): Specializing in blockchain technology and dematerialized monetary systems.
+- **Independent Consultant** (2018 - Present): Specializing in blockchain technology and dematerialized monetary systems and complex systems.
 - **Technical Director Digital Security**, Econocom: Managed security laboratory, focusing on connected devices and radio communication systems.
 - **Independent Consultant in Electronic Warfare** (2013 - 2015): Worked with defense groups on communication intelligence.
 - **Non-commissioned Officer**, French Army (2008 - 2013): Specialized in electromagnetic intelligence.
@@ -38,6 +38,7 @@ Expert in reverse engineering complex systems with a focus on security and commu
 - Staff member at LeHack, developing Spying Challenge.
 - Passionate about walking and running, finding joy and relaxation in outdoor activities.
 - Enthusiastic home brewer, enjoys crafting his own beer and mead, exploring the intricacies of fermentation and flavor development.
+- Porsche enthusiast
 
 **Contact**
 Available for further information and inquiries.
