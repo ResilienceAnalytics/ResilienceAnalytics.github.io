@@ -9,6 +9,8 @@ parent: LLM and ML application
 
 [Access Script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/compare_word_embedding.py){: .btn .btn-purple }
 
+[Access Embedding script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/Embedder.py){: .btn .btn-green }
+
 ## Leveraging Symbolic Differentiation in Word Embeddings Analysis: Semantic Shift Vector SSV
 
 **Introduction**:
