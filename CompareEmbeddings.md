@@ -15,7 +15,7 @@ parent: LLM and ML application
 
 [Access Visualise Embedding script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/visualize_embeddings.py){: .btn .btn-red }
 
-[Access Visualise Embedding script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/visualize_word_embeddings.py){: .btn .btn-red }
+[Access Visualise Interactive script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/visualize_word_embeddings.py){: .btn .btn-red }
 
 
 
