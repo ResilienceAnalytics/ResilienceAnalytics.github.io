@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Compare Embeddings
+title: DYNAMIC POTENTIALS AND MAGICAL RELATIONSHIPS
 nav_exclude: false
 nav_order: 2
 has_children: false
