@@ -60,7 +60,7 @@ From now on, [MASK] of [MASK] will be called [MASK] ([MASK] ) and [MASK] of [MAS
 
 * Entropy naturally always increases towards a maximum, limited by external constraints,
 
-[MASK] is always relative to [MASK]ion. It is during the elabouration of a [MASK] that [MASK] is saved,
+[MASK] is always relative to [MASK]. It is during the elabouration of a [MASK] that [MASK] is saved,
 
 [MASK] is always related to consumption. It is indeed during the acquisition of a [MASK] that the [MASK] is saved.
 
