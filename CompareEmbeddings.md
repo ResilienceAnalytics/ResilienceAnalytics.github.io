@@ -11,14 +11,6 @@ parent: LLM and ML application
 
 [Access Embedding script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/Embedder.py){: .btn .btn-green }
 
-[Access Training script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/Training.py){: .btn .btn-red }
-
-[Access Visualise Embedding script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/visualize_embeddings.py){: .btn .btn-red }
-
-[Access Visualise Interactive script NOT READY](https://github.com/ResilienceAnalytics/Python-Code/blob/main/visualize_word_embeddings.py){: .btn .btn-red }
-
-
-
 
 ## Leveraging Symbolic Differentiation in Word Embeddings Analysis: Semantic Shift Vector SSV
 
