@@ -7,7 +7,7 @@ has_children: false
 parent: LLM and ML application
 ---
 
-## Not Fixed yet
+## Fixed
 
 ~~~python 
 
