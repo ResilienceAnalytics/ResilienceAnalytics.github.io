@@ -348,16 +348,18 @@ def adiabatic_money_economy_MW(M):
 
 # Agent Classes
 class AgentEconomique:
-    def __init__(self, env, paresse, avarice, egoisme):
+    def __init__(self, env, role, paresse, avarice, egoisme):
         self.env = env
         self.paresse = paresse  # Laziness
         self.avarice = avarice  # Avarice
         self.egoisme = egoisme  # Selfishness
         self.richesse_monetaire = 0  # Monetary Wealth
         self.travail = 0  # Labor
+        self.money = 0 
         self.cash = 0  # Cash
         self.product = 0  # Product
         self.env.process(self.cycle_vie())
+        self.role = role # Seller, Transformer, or Buyer
 
     def ajuster_avarice(self, facteurs_externes):
         """ Ajuste l'avarice en fonction des facteurs externes """
@@ -366,16 +368,46 @@ class AgentEconomique:
         if facteurs_externes['inflation']:
             self.avarice *= 1.05  # Augmente légèrement l'avarice en période d'inflation
 
+    def manufacture(self, cost):
+        # Manufacturing process
+        self.money -= cost
+        self.product += 1
+
+    def negotiate_and_sell(self, price):
+        # Selling process
+        self.money += price
+        self.product -= 1
+
+    def buy(self, price):
+        # Buying process
+        self.money -= price
+        self.product += 1
+
     def cycle_vie(self):
-        while True:
-            self.realiser_travail()
-            self.echanger()
-            yield self.env.timeout(1)  # One day in the agent's life
+       while True:
+           if self.role in ['Seller', 'Transformer', 'Buyer']:
+               # Role-specific actions
+               if self.role == 'Seller':
+                   self.manufacture(50)
+                   yield self.env.timeout(1)
+                   self.negotiate_and_sell(100)
+               elif self.role == 'Transformer':
+                   self.buy(100)
+                   self.manufacture(30)
+                   yield self.env.timeout(2)
+                   self.negotiate_and_sell(150)
+               elif self.role == 'Buyer':
+                   self.buy(150)
+                   yield self.env.timeout(3)
+           else:
+               # General economic activities
+               self.realiser_travail()
+               self.echanger()
+               yield self.env.timeout(1)
 
     def realiser_travail(self):
-        travail_effectue = max(0, 1 - self.paresse)  # Assure que le travail effectué n'est pas négatif
-        self.travail += travail_effectue  # Accumuler le travail effectué
-
+        travail_effectue = 1 - self.paresse
+        self.travail += travail_effectue
 
     def echanger(self):
         # Exchange logic based on avarice and selfishness
@@ -383,13 +415,20 @@ class AgentEconomique:
 
 # Economic System Simulation
 class Economie:
-    def __init__(self, nombre_agents):
+    def __init__(self, nombre_agents, facteurs_externes):
         self.env = simpy.Environment()
-        self.agents = [AgentEconomique(self.env, np.random.rand(), np.random.rand(), np.random.rand()) for _ in range(nombre_agents)]
+        self.facteurs_externes = facteurs_externes
+        self.agents = []
+        for _ in range(nombre_agents):
+            role = np.random.choice(['Seller', 'Transformer', 'Buyer'])
+            attributes = np.random.rand(), np.random.rand(), np.random.rand()
+            agent = AgentEconomique(self.env, role, *attributes)
+            self.agents.append(agent)
 
-    def simuler(self, duree, facteurs_externes):
+    def simuler(self, duree):
         for agent in self.agents:
-            agent.ajuster_avarice(facteurs_externes)
+            agent.ajuster_avarice(self.facteurs_externes)
+            self.env.process(agent.cycle_vie())
         self.env.run(until=duree)
 
     def echanger(self):
@@ -398,12 +437,9 @@ class Economie:
             # Exchange logic to be developed
 
 def main():
-
     facteurs_externes = {'recession': True, 'inflation': False}
-    economie = Economie(100)  # 100 economic agents
-    economie.simuler(365, facteurs_externes)  # Simulate for a year
+    economie = Economie(100, facteurs_externes)  # Pass both parameters
+    economie.simuler(365)  # Simulate for a year
 
 if __name__ == "__main__":
     main()
-
-~~~ 
