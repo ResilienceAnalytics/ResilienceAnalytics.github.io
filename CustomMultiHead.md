@@ -4,7 +4,7 @@ title: Custom MultiHead Attention
 nav_exclude: false
 nav_order: 9
 has_children: false
-parent:LLM and ML application
+parent: LLM and ML application
 ---
 
 # Custom Multi-Head Attention Model Documentation
