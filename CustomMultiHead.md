@@ -9,6 +9,8 @@ parent: LLM and ML application
 
 # Custom Multi-Head Attention Model Documentation
 
+[here](https://github.com/ResilienceAnalytics/Python-Code/blob/main/CustomMultiheadAttention.py){: .btn .btn-purple }
+
 ## Overview
 This documentation provides an overview and guidance on how to use the custom multi-head attention model implemented in TensorFlow. The model is designed for natural language processing tasks and leverages a custom implementation of the multi-head attention mechanism, which is a crucial component in Transformer models. The primary application of this model is for text classification tasks.
 
