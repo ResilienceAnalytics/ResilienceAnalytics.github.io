@@ -9,10 +9,6 @@ nav_order: 4
 
 [here](https://github.com/ResilienceAnalytics/Python-Code/blob/main/CustomMultiheadAttention.py){: .btn .btn-purple }
 
-Here is the elaborated documentation of the provided code in English using Markdown:
-
-
-# Custom Multi-head Attention for Text Classification
 
 This script demonstrates the implementation of a text classification model in TensorFlow, featuring a custom multi-head attention mechanism. The model is designed to process textual data, standardize it, and apply a deep learning architecture for binary classification tasks.
 
