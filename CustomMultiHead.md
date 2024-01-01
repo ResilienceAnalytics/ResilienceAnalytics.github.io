@@ -75,6 +75,7 @@ Replace `script_name.py` with the actual script file name.
 - 'cosine_similarity'
 - 'l1_norm'
 - 'l2_norm'
+- 'differentialSum'
 - 'differential'
 
 
