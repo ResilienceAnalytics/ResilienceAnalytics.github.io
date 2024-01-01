@@ -76,7 +76,7 @@ Replace `script_name.py` with the actual script file name.
 - 'l1_norm'
 - 'l2_norm'
 - 'differential'
-```
+
 
 
 ## Note
