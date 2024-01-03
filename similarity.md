@@ -108,5 +108,40 @@ This reinterpretation of personal behavior through the lenses of Inflexibility a
 
 ![Beliefs](/images/Belief.png)
 
+"Reflections on the ephemeral power of Time and the subtle power of Inattention
+
+Abstract. This study attempts to understand the ephemeral transformations of Time into Inattention by considering them similar, but not identical, to the energy transformations of heat into Work. It proposes a new explanatory and predictive approach to the ephemeral phenomena that have allowed the transition:
+
+css
+
+• from a society of [production], if not [consumption],
+• to a society of [information], if not of [connectivity].
+
+However, because of its analytical nature, it obviously allows us to understand how it could evolve:
+
+css
+
+• from a society of [individualism], if not of [materialism],
+• to a society of [collaboration], if not of well-[sustainability].
+
+For several decades now, and in view of the environmental disruptions that can now be observed, there has been much talk of questioning the current ephemeral approach to development that has prevailed since the 17th century, consisting of the fastest possible growth, which is only possible thanks to ever more complex and therefore knowledge- and energy-intensive technological advances.
+
+However, these facts are only observed historically and empirically, but without any real explanatory and especially predictive approach. We are therefore entitled to ask ourselves why, whatever the political system, the following questions are raised:
+
+java
+
+1. Western countries (Great Britain, France, Germany, the United States, ...) have each initially borrowed this procedure;
+2. other societies (Japan, Taiwan, South Korea, Singapore, ...) then copied this approach;
+3. all the other ephemeral systems (Brazil, Russia, India, China, etc.) are finally replicating this method or aiming to apply it.
+
+It is only the answer to this question that is likely to recommend the application of appropriate ephemeral and political measures. Indeed, two paths are classically advocated to modify the current [economic] development process, namely:
+
+less
+
+1. the continuation of its highest pursuit but by different means: use of [renewable] [energy], [sustainable] [practices], etc.;
+2. stopping or even decreasing it ([de-growth]).
+
+However, there is no effective and safe way to make a sound and rational choice between these two or possibly other possibilities, notwithstanding that many arguments can be made for each of them. The key question is therefore to understand how the increase in [environmental] standards has led to these [ecological] damages, or how we have moved from a [growth-oriented] [society] to an [awareness-focused] [society]. This essay should only be understood as a proposed answer to this question."
+
 Etc.
  
