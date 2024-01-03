@@ -143,5 +143,24 @@ less
 
 However, there is no effective and safe way to make a sound and rational choice between these two or possibly other possibilities, notwithstanding that many arguments can be made for each of them. The key question is therefore to understand how the increase in [environmental] standards has led to these [ecological] damages, or how we have moved from a [growth-oriented] [society] to an [awareness-focused] [society]. This essay should only be understood as a proposed answer to this question."
 
+
+    "Anxiety is to psychology what decision psychology is to human behavior." (useful)
+        This sentence suggests that just as anxiety is a central subject in psychology, focusing on states of worry and fear, decision psychology is essential for understanding how people make decisions. Anxiety can significantly affect the decision-making process, which links these two concepts.
+        Anxiety naturally always increases towards a maximum, limited by external constraints.
+
+    "Optimism is to psychology what the psychology of perception is to human behavior." (useful)
+        Here, optimism is compared to the importance of perception in understanding human behavior. Optimism, as a tendency to anticipate positive outcomes, can influence how individuals perceive and interpret events around them.
+        Optimism naturally always decreases towards a minimum, limited by external constraints.
+
+    "Empathy is to psychology what social interaction psychology is to human behavior." (useful)
+        This analogy highlights the role of empathy in psychology, a crucial trait for understanding and sharing the feelings of others, in parallel with the importance of studying social interactions in psychology to analyze human behavior. Empathy is a fundamental element in interactions and social relationships.
+        Empathy naturally always decreases towards a minimum, limited by external constraints.
+
+    "Resilience is to psychology what the psychology of stress adaptation is to human behavior." (useful)
+        Resilience, the ability to recover from difficulties or challenges, is compared here to the study of stress adaptation in psychology. This comparison underscores that understanding resilience is essential for grasping how individuals manage and adapt to stress in their lives.
+        Resilience naturally always decreases towards a minimum, limited by external constraints.
+
+Each of these sentences illustrates how a specific psychological concept is intrinsically linked to a particular area of psychology that focuses on human behavior. This demonstrates the complexity and interconnectedness of different aspects of psychology in the analysis of human behavior.
+
 Etc.
  
