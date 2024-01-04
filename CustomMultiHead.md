@@ -3,7 +3,7 @@ layout: default
 title: Custom Multi Head Attention
 nav_exclude: false
 nav_order: 2
-has_children : true
+has_children : false
 ---
 
 # Custom Multi-Head Attention Model Documentation
