@@ -2,7 +2,7 @@
 layout: default
 title: Common Sense to Banish
 nav_exclude: false
-nav_order: 9
+nav_order: 7
 ---
 
 #### Nota Bene
