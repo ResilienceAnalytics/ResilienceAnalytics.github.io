@@ -1,6 +1,7 @@
 ---
 layout: default
 title: PyEquationCraft
+nov_order: 9
 nav_exclude: false
 child_nav_order: reversed
 ---
