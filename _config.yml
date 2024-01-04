@@ -9,6 +9,7 @@ aux_links:
   
 nav_external_links_new_tab: true
 
-google_analytics: G-D9M4DF04K7
+ga_tracking: G-D9M4DF04K7
+ga_tracking_anonymize_ip: true
 
 
