@@ -2,7 +2,7 @@
 layout: default
 title: Super Intelligence
 nav_exclude: false
-nav_order: 8
+nav_order: 5
 ---
 
 ## Introduction
