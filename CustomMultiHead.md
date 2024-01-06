@@ -92,3 +92,8 @@ Replace `script_name.py` with the actual script file name.
 - The model's performance and effectiveness can vary based on the dataset and specific task.
 - Fine-tuning and adjusting hyperparameters may be necessary for optimal results.
 
+## Reference
+
+Attention Is All You Need
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin
+https://arxiv.org/abs/1706.03762
