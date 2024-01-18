@@ -7,6 +7,7 @@ has_children: false
 parent: LLM and ML application
 ---
 
+## Quote
 From : Abridged Beyond the Point of Uselfullness by Zach Weinersmith
 
 1. Physics
@@ -15,6 +16,7 @@ From : Abridged Beyond the Point of Uselfullness by Zach Weinersmith
 Aristotle said a bunch of stuff that was wrong. Galileo and Newton fixed things up. Then               Einstein broke everything again. Now, we've basically got it all worked out, except for small          stuff, big stuff, hot stuff, cold stuff, fast stuff, heavy stuff, dark stuff, turbulence and           the concept of time.
 
 
+## Presentation 
 
 The concept of "Similar but not identical" is a nuanced framework for understanding human nature and behavior. It acknowledges that while humans share common traits and capabilities, individual experiences and personalities lead to unique expressions of these characteristics. This concept is key in recognizing that people may approach similar outcomes through different paths, reflecting personal backgrounds and decision-making processes. It highlights the value of diversity in thought and action, fostering empathy and inclusion in social interactions.
 
