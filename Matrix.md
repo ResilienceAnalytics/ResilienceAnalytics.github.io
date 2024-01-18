@@ -4,6 +4,11 @@ title: Matrix of characteristics
 nav_exclude: false
 nav_order: 4
 ---
+
+"Is no one inspired by our present picture of the universe? This value of science remains unsung by singers, you are reduced to hearing not a song or poem, but an evening lecture about it. This is not yet a scientific age."
+
+Richard Feynmann
+
 ## Matrix of characteristics
 
 In the silent depths of existence, humanity stands, a living tableau, a complex assembly of lines and contours that draw the borders of an interior landscape both mysterious and evident. Indeed, it is a matrix of characteristics, a collection of vectors bearing within them intangible attributes, qualities invisible to the naked eye, yet as real as the heartbeat of consciousness.
