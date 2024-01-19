@@ -8,7 +8,7 @@ has_children : false
 
 # Custom Multi-Head Attention Model Documentation
 
-[here](https://github.com/ResilienceAnalytics/Python-Code/blob/main/CustomMultiHeadAttention.py){: .btn .btn-purple }
+[Access Script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/CustomMultiHeadAttention.py){: .btn .btn-purple }
 
 ##Result
 
