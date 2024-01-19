@@ -20,8 +20,10 @@ Aristotle said a bunch of stuff that was wrong. Galileo and Newton fixed things 
 
 The concept of "Similar but not identical" is a nuanced framework for understanding human nature and behavior. It acknowledges that while humans share common traits and capabilities, individual experiences and personalities lead to unique expressions of these characteristics. This concept is key in recognizing that people may approach similar outcomes through different paths, reflecting personal backgrounds and decision-making processes. It highlights the value of diversity in thought and action, fostering empathy and inclusion in social interactions.
 
-[here](Reflections-EN.pdf){: .btn .btn-purple }
+[Base framework here](Reflections-EN.pdf){: .btn .btn-purple }
 
+
+#### By apprehending economic transformations as transformations similar but not identical to energy transformations, we obtain a new framework.
 
 From now on, economy of Work will be called Laziness (P) and economy of Money will be called Avarice (A). Many people will rebel against these designations, arguing that they are neither lazy nor stingy. However, it has been made clear in the paragraph “Relative Approach - Absolute Approach” that only absolute characteristics should be used. It is of course possible to be only very little lazy and very little stingy, but Laziness and Avarice will never be zero. Moreover, it's obvious that in the context expressed in this note, Laziness and Avarice have strictly and absolutely no ethical, moral, philosophical, divine law transgression, etc. The only thing that counts here is the idea (concept, notion, etc.) of “least action”, of “parsimony”, which must necessarily be discriminated against according to whether it's a question of Work (Laziness) or Money (Avarice). It is therefore possible to explain these two properties of Laziness and Avarice as follows:
 
@@ -40,7 +42,7 @@ As a result, a single individual can never be both producer and consumer simulta
 
 ![genesis](/images/avarice.png)
 
-
+#### By apprehending Time Management transformations as transformations similar but not identical to energy transformations, we obtain a new framework.
 
 From now on, economy of time will be called Inefficiency (I) and economy of inattention will be called Distraction (D). Many people will rebel against these designations, arguing that they are neither inefficient nor distracted. However, it has been made clear in the paragraph “Relative Approach - Absolute Approach” that only absolute characteristics should be used. It is of course possible to be only very little inefficient and very little distracted, but Inefficiency and Distraction will never be zero. Moreover, it's obvious that in the context expressed in this note, Inefficiency and Distraction have strictly and absolutely no ethical, moral, philosophical, divine law transgression, etc. The only thing that counts here is the idea (concept, notion, etc.) of “least action”, of “parsimony”, which must necessarily be discriminated against according to whether it's a question of Time (Inefficiency) or Attention (Distraction). It is therefore possible to explain these two properties of Inefficiency and Distraction as follows:
 
@@ -60,8 +62,11 @@ This reinterpretation of human behavior through the lenses of Inefficiency and D
 
 ![TimeManagement](/images/TimeInattention.png)
 
+#### By apprehending [SELECT] transformations as transformations similar but not identical to energy transformations, we obtain a new framework.
 
-Dishonest,Social, Apathetic, Disrespectful, Evasive, Cowardly, Pessimistic, Stingy, Impatient, Sad, Dishonest, Distrustful, Unfriendly, Arrogant, Harsh, Unimaginative, Passive, Foolish, Unhappy, Unfaithful, Restless, Reckless, Weak, Boring, Abrasive, Cold, Unstable, Frivolous, Lethargic, Undisciplined, Uninterested Unambitious, Inflexible, Intolerant, Apathetic, Dependent, Indecisive, Inarticulate, Clumsy, Unimaginative, Confused, Careless, Closed, Quitter, Negative ,Imprudent Impulsive, Insensitive,Calculated, Negligent, etc. 
+[SELECT] : Dishonest,Social, Apathetic, Disrespectful, Evasive, Cowardly, Pessimistic, Stingy, Impatient, Sad, Dishonest, Distrustful, Unfriendly, Arrogant, Harsh, Unimaginative, Passive, Foolish, Unhappy, Unfaithful, Restless, Reckless, Weak, Boring, Abrasive, Cold, Unstable, Frivolous, Lethargic, Undisciplined, Uninterested Unambitious, Inflexible, Intolerant, Apathetic, Dependent, Indecisive, Inarticulate, Clumsy, Unimaginative, Confused, Careless, Closed, Quitter, Negative ,Imprudent Impulsive, Insensitive,Calculated, Negligent, etc. 
+
+#### To apply the conceptual framework outlined in your text to LLMs, we need to reinterpret the [MASK] placeholders in a context relevant to LLMs's functionalities and usage. 
 
 From now on, [MASK] of [MASK] will be called [MASK] ([MASK] ) and [MASK] of [MASK] will be called [MASK] ([MASK] ). Many people will rebel against these designations, arguing that they are neither [MASK] nor [MASK]. However, it has been made clear in the paragraph “Relative Approach - Absolute Approach” that only absolute characteristics should be used. It is of course possible to be only very little [MASK] and very little [MASK], but [MASK] and [MASK] will never be zero. Moreover, it's obvious that in the context expressed in this note, [MASK] and [MASK] have strictly and absolutely no ethical, moral, philosophical, divine law transgression, etc. The only thing that counts here is the idea (concept, notion, etc.) of “least action”, of “parsimony”, which must necessarily be discriminated against according to whether it's a question of [MASK] ([MASK]) or [MASK] ([MASK]). It is therefore possible to explain these two properties of [MASK] and [MASK] as follows:
 
@@ -123,14 +128,12 @@ This reinterpretation of personal behavior through the lenses of Inflexibility a
 
 Abstract. This study attempts to understand the ephemeral transformations of Time into Inattention by considering them similar, but not identical, to the energy transformations of heat into Work. It proposes a new explanatory and predictive approach to the ephemeral phenomena that have allowed the transition:
 
-css
 
 • from a society of [production], if not [consumption],
 • to a society of [information], if not of [connectivity].
 
 However, because of its analytical nature, it obviously allows us to understand how it could evolve:
 
-css
 
 • from a society of [individualism], if not of [materialism],
 • to a society of [collaboration], if not of well-[sustainability].
@@ -139,7 +142,6 @@ For several decades now, and in view of the environmental disruptions that can n
 
 However, these facts are only observed historically and empirically, but without any real explanatory and especially predictive approach. We are therefore entitled to ask ourselves why, whatever the political system, the following questions are raised:
 
-java
 
 1. Western countries (Great Britain, France, Germany, the United States, ...) have each initially borrowed this procedure;
 2. other societies (Japan, Taiwan, South Korea, Singapore, ...) then copied this approach;
@@ -147,7 +149,6 @@ java
 
 It is only the answer to this question that is likely to recommend the application of appropriate ephemeral and political measures. Indeed, two paths are classically advocated to modify the current [economic] development process, namely:
 
-less
 
 1. the continuation of its highest pursuit but by different means: use of [renewable] [energy], [sustainable] [practices], etc.;
 2. stopping or even decreasing it ([de-growth]).
@@ -155,23 +156,6 @@ less
 However, there is no effective and safe way to make a sound and rational choice between these two or possibly other possibilities, notwithstanding that many arguments can be made for each of them. The key question is therefore to understand how the increase in [environmental] standards has led to these [ecological] damages, or how we have moved from a [growth-oriented] [society] to an [awareness-focused] [society]. This essay should only be understood as a proposed answer to this question."
 
 
-    "Anxiety is to psychology what decision psychology is to human behavior." (useful)
-        This sentence suggests that just as anxiety is a central subject in psychology, focusing on states of worry and fear, decision psychology is essential for understanding how people make decisions. Anxiety can significantly affect the decision-making process, which links these two concepts.
-        Anxiety naturally always increases towards a maximum, limited by external constraints.
-
-    "Optimism is to psychology what the psychology of perception is to human behavior." (useful)
-        Here, optimism is compared to the importance of perception in understanding human behavior. Optimism, as a tendency to anticipate positive outcomes, can influence how individuals perceive and interpret events around them.
-        Optimism naturally always decreases towards a minimum, limited by external constraints.
-
-    "Empathy is to psychology what social interaction psychology is to human behavior." (useful)
-        This analogy highlights the role of empathy in psychology, a crucial trait for understanding and sharing the feelings of others, in parallel with the importance of studying social interactions in psychology to analyze human behavior. Empathy is a fundamental element in interactions and social relationships.
-        Empathy naturally always decreases towards a minimum, limited by external constraints.
-
-    "Resilience is to psychology what the psychology of stress adaptation is to human behavior." (useful)
-        Resilience, the ability to recover from difficulties or challenges, is compared here to the study of stress adaptation in psychology. This comparison underscores that understanding resilience is essential for grasping how individuals manage and adapt to stress in their lives.
-        Resilience naturally always decreases towards a minimum, limited by external constraints.
-
-Each of these sentences illustrates how a specific psychological concept is intrinsically linked to a particular area of psychology that focuses on human behavior. This demonstrates the complexity and interconnectedness of different aspects of psychology in the analysis of human behavior.
 
 Etc.
  
