@@ -12,6 +12,8 @@ has_children : false
 
 ##Result
 
+The Differential and DifferentialSum is our approach.
+
 | Attention Mechanism   | Validation Loss | Validation Accuracy | Test Loss | Test Accuracy |
 |-----------------------|-----------------|---------------------|-----------|---------------|
 | Differential          | 0.2904          | 0.8800              | 0.3087    | 0.8738        |
