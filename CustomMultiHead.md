@@ -10,6 +10,8 @@ has_children : false
 
 [Access Script](https://github.com/ResilienceAnalytics/Python-Code/blob/main/CustomMultiHeadAttention.py){: .btn .btn-purple }
 
+It is crucial to think like a **physicist** rather than an accountant. That is, while changes may seem minor at first glance (an accountant's observation), the neuronal structure is entirely different. This is due to the use of differentiation in word embeddings, which allows for a much more complex construction (dimension by dimension) of the neural network, a realization that comes from the perspective of physics.
+
 ##Result
 
 The Differential and DifferentialSum is our approach.
@@ -22,6 +24,8 @@ The Differential and DifferentialSum is our approach.
 | L1 Norm               | 0.2904          | 0.8800              | 0.3089    | 0.8737        |
 | Cosine Similarity     | 0.2906          | 0.8798              | 0.3091    | 0.8730        |
 | Scaled Dot Product    | 0.2902          | 0.8796              | 0.3093    | 0.8728        |
+
+
 
 
 This script demonstrates the implementation of a text classification model in TensorFlow, featuring a custom multi-head attention mechanism. The model is designed to process textual data, standardize it, and apply a deep learning architecture for binary classification tasks.
