@@ -29,4 +29,4 @@ This numeric introspection allows us to truly understand the impact of our actio
 
 The super intelligence.
 
-![superTool]([https://github.com/ResilienceAnalytics/ResilienceAnalytics.github.io/tree/main](https://github.com/ResilienceAnalytics/ResilienceAnalytics.github.io/blob/main/images/supertool.png)
+![superTool](https://github.com/ResilienceAnalytics/ResilienceAnalytics.github.io/blob/main/images/supertool.png)
