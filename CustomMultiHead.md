@@ -12,6 +12,14 @@ has_children : false
 
 It is crucial to think like a **physicist** rather than an accountant. That is, while changes may seem minor at first glance (an accountant's observation), the neuronal structure is entirely different. This is due to the use of differentiation in word embeddings, which allows for a much more complex construction (dimension by dimension) of the neural network, a realization that comes from the perspective of physics.
 
+Practical Case: Mélik (Differential Attention Mechanism): "It turns out that length and weight are intangible, untouchable, impalpable, immaterial, elusive, etc., characteristics, yet perfectly real. This property of intangibility necessarily implies, as a corollary, the simultaneous existence of a tangible object that allows and enables its manipulation."
+
+Research Engineer (Scaled Dot Product Attention Mechanism): "You say that the measurement of a length is intangible. It's exactly the opposite since body parts have long served to measure and we retain traces of this in Anglo-Saxon measurements: inches, feet, cubits, cups."
+
+Mélik: You compare "the measurement of length" to a "length", this confusion between the measurement object and the measured property (characteristic) can lead to error and needs to be corrected for a more precise and coherent discussion on the subject.
+
+Advanced exploration of multi-head attention mechanisms not only showcases our ability to innovate beyond the boundaries of traditional artificial intelligence but also underscores our commitment to developing aligned and beneficial AI, ensuring that technological advancements are made in harmony with human values and objectives.
+
 ##Result
 
 The Differential and DifferentialSum is our approach.
