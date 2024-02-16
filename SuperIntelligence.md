@@ -28,3 +28,5 @@ Great technological advancements and their understanding were only possible afte
 This numeric introspection allows us to truly understand the impact of our actions throughout history, how we can improve by utilizing the extension of our being, a tool forged to guide us.
 
 The super intelligence.
+
+![superTool]([https://github.com/ResilienceAnalytics/ResilienceAnalytics.github.io/tree/main](https://github.com/ResilienceAnalytics/ResilienceAnalytics.github.io/blob/main/images/supertool.png)
