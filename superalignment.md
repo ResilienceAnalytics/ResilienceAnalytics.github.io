@@ -2,7 +2,7 @@
 layout: default
 title: Super Alignment
 nav_exclude: false
-nav_order: 12
+nav_order: 0
 ---
 
 # Super Alignment and the Importance of Semantics in AI
