@@ -15,7 +15,7 @@ Our approach is mirrored in our examination of the humanities and social science
 
 We challenge the traditional distinctions made by the human mind, often colored by biases and historical influences, adopting both a relative and absolute perspective. As humorously pointed out by Weinersmith, many scientific fields have seen advancements and revisions, reminding us that knowledge is an ever-evolving process.
 
-![logo](https://github.com/ResilienceAnalytics/ResilienceAnalytics.github.io/blob/main/images/logo.png)
+![logo](images/logo.png)
 
 Our approach, detailed on [this page](https://resilienceanalytics.github.io/similarity.html), views human personality in a nuanced and dynamic manner, rather than categorical and static. We see individuals as exhibiting traits such as greed, laziness, bravery, humor, and likability to varying degrees in the tumult of daily life.
 
