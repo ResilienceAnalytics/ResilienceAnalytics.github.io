@@ -17,7 +17,7 @@ Taking inspiration from fields such as physics, the approach to AI development n
 
 The case study of Mélik and his "Differential Attention Mechanism" serves as a prime example of the importance of differentiating between the object of measurement and the characteristic being measured, which is devoid of any moral or ethical connotations. This distinction is pivotal in eliminating ambiguity and promoting more precise discussions about the subject matter, thereby laying the groundwork for the development of AI systems that concentrate on a detailed comprehension of human attributes.
 
-[Superalignment](/images/superalignment.png)
+![Superalignment](/images/superalignment.png)
 
 **Research Engineering and Advanced Attention Mechanisms**
 
