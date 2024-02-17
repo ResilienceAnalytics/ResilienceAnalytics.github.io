@@ -14,7 +14,7 @@ def speed(de, dt):
     return de / dt
 
 def acceleration(de, dt):
-    return (2 * de) / (dt ** 2)
+    return ( de ** 2) / (dt ** 2)
 
 def force(m, gamma):
     return m * gamma
