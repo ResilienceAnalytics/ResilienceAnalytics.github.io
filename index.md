@@ -9,7 +9,7 @@ child_nav_order: reversed
 
 ## Ongoing Updates
 
-Welcome to the Analytical Avant-Garde website, where innovation, humor, and science merge with AI ethics and in-depth semantics.
+Welcome to Resilient Analytic website
 
 Our approach is mirrored in our examination of the humanities and social sciences through the lens of natural sciences, highlighting the super alignment of AI and the crucial importance of semantics in understanding human nuances.
 
