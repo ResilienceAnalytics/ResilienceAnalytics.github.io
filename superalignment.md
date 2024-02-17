@@ -17,6 +17,8 @@ Taking inspiration from fields such as physics, the approach to AI development n
 
 The case study of Mélik and his "Differential Attention Mechanism" serves as a prime example of the importance of differentiating between the object of measurement and the characteristic being measured, which is devoid of any moral or ethical connotations. This distinction is pivotal in eliminating ambiguity and promoting more precise discussions about the subject matter, thereby laying the groundwork for the development of AI systems that concentrate on a detailed comprehension of human attributes.
 
+[Superalignment](/images/superalignment.png)
+
 **Research Engineering and Advanced Attention Mechanisms**
 
 Our foray into multi-head attention mechanisms signifies our commitment to pushing the boundaries of conventional AI. It showcases our resolve to craft AI technologies that are not just technologically sophisticated but also intricately aligned with the diverse spectrum of human qualities, ensuring that technological progress is in sync with a detailed grasp of human goals. Reflecting on our work, we recognize that AI should not be trained on human values, as "value" implies broad and ethically charged interpretations (p.68 of Reflections-EN.pdf). Instead, AI should focus on abstract yet tangible characteristics that are neutral and descriptive.
