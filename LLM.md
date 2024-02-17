@@ -21,6 +21,8 @@ LLMs, with their ability to analyze, synthesize, and generate information, offer
 
 However, it is crucial to remember that humans should not be perceived as superior or inferior in the natural balance. Recognizing humans as one element among others in the universe, subject to the same natural laws, is vital. This perspective allows us to see humanity not as a separate entity, but as an integrated actor in a larger system, collaborating with AI for better governance.
 
+![Target.png](/images/Target.png)
+
 **Social Sciences as an Extension of Natural Laws**
 
 The integration of social sciences into this framework is fundamental. Viewing these disciplines as applications of natural laws acknowledges their capacity to inform and guide decision-making processes. This holistic approach ensures that human contributions in terms of values, ethics, and social context are considered in the analyses and recommendations of LLMs.
