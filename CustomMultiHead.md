@@ -38,6 +38,8 @@ The Differential and DifferentialSum is our approach.
 
 This script demonstrates the implementation of a text classification model in TensorFlow, featuring a custom multi-head attention mechanism. The model is designed to process textual data, standardize it, and apply a deep learning architecture for binary classification tasks.
 
+![CustomMultiHead.png](/images/CustomMultiHead.png)
+
 ## Dependencies
 
 - os
