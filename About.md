@@ -26,13 +26,14 @@ Expert in reverse engineering complex systems with a focus on security and commu
 ![melik.png](/images/melik.png)
 
 **Work Experience**
-- **Independent Consultant** (2018 - Present): Specializing in blockchain technology and dematerialized monetary systems and complex systems.
+- **Independent Consultant** (2018 - Present): Building a Large Language Model (LLM) using thermodynamic formalism. Extensive reverse-engineering of blockchain technologies with a focus on dematerialized and secure monetary mediums. Successfully leveraged thermodynamics formalism for economic system applications.
 - **Technical Director Digital Security**, Econocom: Managed security laboratory, focusing on connected devices and radio communication systems.
 - **Independent Consultant in Electronic Warfare** (2013 - 2015): Worked with defense groups on communication intelligence.
 - **Non-commissioned Officer**, French Army (2008 - 2013): Specialized in electromagnetic intelligence.
 
 **Education**
 - MSc. in Telecom System, Rennes 1 University - Very Honourable Distinction
+   I was offered a PhD at CELAR DGA-MI (Centre for Armament Electronics, a significant entity within the General Directorate for Armament in France, specialized in research and development in the field of defense electronics), but a mission diverted me from it.
 - Continued education in Mathematics and Physics, SUPELEC
 - Specialization in Signals, Communications Intelligence, Electronic Warfare
 
