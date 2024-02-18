@@ -27,7 +27,7 @@ Expert in reverse engineering complex systems with a focus on security and commu
 
 **Work Experience**
 - **Independent Consultant** (2018 - Present): Building a Large Language Model (LLM) using thermodynamic formalism. Extensive reverse-engineering of blockchain technologies with a focus on dematerialized and secure monetary mediums. Successfully leveraged thermodynamics formalism for economic system applications.
-- **Technical Director Digital Security**, Econocom: Managed security laboratory, focusing on connected devices and radio communication systems.
+- **Technical Director Digital Security**: Econocom: Managed security laboratory (5-15 engineers), focusing on connected devices and radio communication systems, Set-up the startup for a 5M€ first seed, succeffully sold to Atos.
 - **Independent Consultant in Electronic Warfare** (2013 - 2015): Worked with defense groups on communication intelligence.
 - **Non-commissioned Officer**, French Army (2008 - 2013): Specialized in electromagnetic intelligence.
 
