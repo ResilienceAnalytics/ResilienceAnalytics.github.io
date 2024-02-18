@@ -23,6 +23,8 @@ Expert in reverse engineering complex systems with a focus on security and commu
 - **Mobile Communications**: Profound knowledge in 2G, 3G, and 3G+ technologies, demonstrating a comprehensive understanding of various generations of mobile communication systems.
 - **Security Tools**: Developed and utilized rainbow tables for cracking encryption in 2G/3G networks, showcasing advanced skills in cryptographic security and vulnerability analysis. Demonstrated expertise in spread spectrum technologies by successfully identifying sequences through blind analysis, highlighting proficiency in complex signal processing and encryption techniques
 
+![melik.png](/images/melik.png)
+
 **Work Experience**
 - **Independent Consultant** (2018 - Present): Specializing in blockchain technology and dematerialized monetary systems and complex systems.
 - **Technical Director Digital Security**, Econocom: Managed security laboratory, focusing on connected devices and radio communication systems.
