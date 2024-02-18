@@ -20,6 +20,8 @@ Cosine similarity measures the orientation or direction of two vectors, regardle
 
 The L2 distance, or Euclidean distance, quantifies the direct distance between two points in a vector space. This measurement can be likened to an intuitive, overall assessment of differences or separations, akin to using 'common sense' to gauge how far apart or different two elements are.
 
+![common.png](/images/common.png)
+
 ### Differential of Vector Dimensions and Reason
 
 A more detailed and specific analysis of vectors involves examining variations in each dimension – a process akin to using 'reason'. Here, logical and critical analysis is employed to understand precisely how and why things differ or change.
