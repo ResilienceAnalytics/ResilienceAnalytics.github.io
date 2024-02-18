@@ -7,7 +7,7 @@ has_children: false
 parent: LLM and ML application
 ---
 
-# Beyond the Obvious: A Fusion of Physics, Economy, and Time Management
+# Beyond the Obvious
 
 ## Quote
 From: *Abridged Beyond the Point of Usefulness* by Zach Weinersmith
