@@ -13,6 +13,12 @@ Welcome to Resilient Analytic website
 
 Our approach is mirrored in our examination of the humanities and social sciences through the lens of natural sciences, highlighting the super alignment of AI and the crucial importance of semantics in understanding human nuances.
 
+For a physicist, something always contains temperature, pressure, intensity, etc. This can be in small or large quantities, but it is always present.
+
+Thus, to apprehend human beings, it is necessary to observe like a physicist in order to study, analyze, and align with them.
+
+An AI endowed with such capability would be able to perfectly align with humans.
+
 We challenge the traditional distinctions made by the human mind, often colored by biases and historical influences, adopting both a relative and absolute perspective. Many scientific fields have seen advancements and revisions, reminding us that knowledge is an ever-evolving process.
 
 ![logo](images/logo.png)
