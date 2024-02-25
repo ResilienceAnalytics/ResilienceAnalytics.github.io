@@ -23,7 +23,7 @@ The anomalies and "glitches" we observe in the laws of physics are not evidence 
 
 ![simulateR](/images/simulateR.png)
 
-## The Analogy of Understanding: Grasping the Intangible
+## The Analogy in Understanding: Grasping the Intangible
 
 To grasp abstract concepts, humans have always relied on tangible objects. This method of analogy has traversed history and plays a crucial role in our ability to quickly understand complex subjects. For example, a tape measure helps us grasp the concept of length, a weight disc that of mass, and various forms of currency (coins, bills, checks, credit cards) represent economic value (Money). These tools are vectors-supports, allowing us to materialize and manipulate concepts that would otherwise remain intangible.
 
