@@ -13,7 +13,7 @@ Welcome to Resilience Analytic website
 
 Our approach is mirrored in our examination of the humanities and social sciences through the lens of natural sciences, highlighting the super alignment of AI and the crucial importance of semantics in understanding human nuances.
 
-For a physicist, something always contains temperature, pressure, intensity, etc. This can be in small or large quantities, but it is always present.
+For a physicist, something always contains temperature, pressure, intensity, etc. . This can be in small or large quantities, but it is always present.
 
 Thus, to apprehend human beings, it is necessary to observe like a physicist in order to study, analyze, and align with them.
 
