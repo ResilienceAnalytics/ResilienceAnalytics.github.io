@@ -29,7 +29,6 @@ Our approach, detailed on [this page](https://resilienceanalytics.github.io/simi
 
 In facing the current global meta-crisis, with climate change as a major challenge, our goal is to provide a robust analytical tool. To this end, we use Large Language Models (LLMs), further explained on [this page](https://resilienceanalytics.github.io/LLM.html), to offer informed advice for our decision-making.
 
-Please download our whitepaper : 
-[here](WhitepaperResyr-.pdf){: .btn .btn-purple }
+
 
 
