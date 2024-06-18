@@ -1,9 +1,9 @@
----
-layout: default
-title: Transformer-Custom
-nav_exclude: false
-nav_order: 0
----
+#---
+#layout: default
+#title: Transformer-Custom
+#nav_exclude: false
+#nav_order: 0
+#---
 
 ```markdown
 # AdaptaText: Text Classification with Custom Attention Mechanisms
